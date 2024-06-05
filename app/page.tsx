@@ -4,11 +4,11 @@ export const Left = (): JSX.Element => {
       <div className="absolute top-[180px] left-0 font-normal text-black text-lg tracking-[0] leading-[normal]">
         Projects
       </div>
-      <div className="flex w-[45px] h-16 items-center justify-center gap-2.5 px-[7px] py-[3px] absolute top-0 left-[11px] border-4 border-solid border-black">
-        <div className="relative w-fit font-normal text-black text-sm tracking-[0] leading-[normal]">
+      <button className="group transition-colors duration-300 ease-in-out hover:bg-black flex w-[45px] h-16 items-center justify-center gap-2.5 px-[7px] py-[3px] absolute top-0 left-[11px] border-4 border-solid border-black">
+        <p className= "w-fit font-normal text-black text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white">
           menu
-        </div>
-      </div>
+        </p>
+      </button>
     </div>
   );
 };
@@ -46,8 +46,8 @@ export const Project1 = (): JSX.Element => {
         </span>
         <span className="font-normal"> for <br /> people with hypersensitivity.</span>
       </p>
-      <button className="mb-7 flex w-[100px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-black">
-        <div className="relative w-fit mr-[-7.00px] font-bold text-black text-sm tracking-[0] leading-[normal]">
+      <button className="group transition-colors duration-300 ease-in-out hover:bg-black mb-7 flex w-[100px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-black">
+        <div className="relative w-fit mr-[-7.00px] font-bold text-black text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white">
           Case Study
         </div>
       </button>
@@ -66,10 +66,10 @@ export const Project2 = (): JSX.Element => {
         AI Journal
       </div>
       <p className="relative font-normal mb-3 text-black text-base tracking-[0] leading-[normal]">
-        Digital journal that personalizes journal entries through collected text and media.
+        Digital journal that customizes journal entries through collected text and media.
       </p>
-      <button className="mb-8 flex w-[100px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-black">
-        <div className="relative w-fit mr-[-7.00px] font-bold text-black text-sm tracking-[0] leading-[normal]">
+      <button className="group transition-colors duration-300 ease-in-out hover:bg-black mb-7 flex w-[100px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-black">
+        <div className="relative w-fit mr-[-7.00px] font-bold text-black text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white">
           Case Study
         </div>
       </button>
@@ -80,7 +80,7 @@ export const Project2 = (): JSX.Element => {
 export default function Home() {
   return (
     <main className="flex flex-row place-content-center mt-10">
-      <div className="mr-7">
+      <div className="mr-8">
         <Left />
       </div>
       <div>
