@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily: {
         'normal': ['futura-pt'],
         'bold': ['futura-pt-bold'],
+      },
+      colors: {
+        'melo-blue': "#007089"
       }
     },
   },
