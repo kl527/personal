@@ -9,7 +9,7 @@ import { Project3 } from "./ui/Project3";
 export default function Home() {
   return (
     <main className="flex flex-row place-content-center mt-9 md:mt-[40px]">
-      <div className="mr-8 md:mr-[160px] flex ">
+      <div className="mr-8 md:mr-[80px] lg:mr-[150px] flex ">
         <Left />
       </div>
       <div>
