@@ -1,10 +1,5 @@
 import "./ui/globals.css";
-
-export const LeftBar = (): JSX.Element => {
-  return (
-    <div className="fixed left-0 top-0 h-[100vh] md:w-[12px] w-[15px] bg-melo-blue" />
-  )
-}
+import {LeftBar} from "./ui/LeftBar";
 
 export default function RootLayout({
   children,
