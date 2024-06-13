@@ -1,6 +1,6 @@
 export const Project3 = (): JSX.Element => {
     return (
-      <div className="w-[237px] md:w-[646px] md:flex md:gap-5 md:mb-5">
+      <div className="w-[237px] md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-5">
         <div className="w-[237px] md:w-[100%]" >
           <img src="/p3.jpg" alt="" />
         </div>
