@@ -1,0 +1,44 @@
+{
+    "resources": [
+        {
+            "title": "Find me on Mastodon",
+            "link": "https://indieweb.social/@kendalmintcode",
+            "imageUrl": "/carousel1.png"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel2.png"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel3.png"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel4.jpg"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel5.png"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel6.png"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel7.png"
+        },
+        {
+            "title": "Welcome to K-Tech",
+            "link": "https://k-tech.systems",
+            "imageUrl": "/carousel8.png"
+        }
+    ]
+}
