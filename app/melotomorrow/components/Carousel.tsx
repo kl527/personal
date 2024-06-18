@@ -7,7 +7,6 @@ import data from '../../lib/data.json';
 
 // Define the type for the resource data
 interface Resource {
-  link: string;
   imageUrl: string;
   title: string;
 }
@@ -26,7 +25,7 @@ const Carousel: React.FC = () => {
   const moveNext = () => {
     if (
       carousel.current !== null &&
-      carousel.current.offsetWidth * (currentIndex + 1) <= maxScrollWidth.current
+      carousel.current.scrollLeft + carousel.current.offsetWidth < maxScrollWidth.current
     ) {
       setCurrentIndex((prevState) => prevState + 1);
     }
@@ -36,13 +35,13 @@ const Carousel: React.FC = () => {
     if (direction === 'prev') {
       return currentIndex <= 0;
     }
-
+  
     if (direction === 'next' && carousel.current !== null) {
       return (
-        carousel.current.offsetWidth * (currentIndex + 1) >= maxScrollWidth.current
+        carousel.current.scrollLeft + carousel.current.offsetWidth >= maxScrollWidth.current
       );
     }
-
+  
     return false;
   };
 
@@ -107,7 +106,7 @@ const Carousel: React.FC = () => {
         </div>
         <div
           ref={carousel}
-          className="carousel-container relative flex md:gap-4 gap-2 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+          className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
         >
           {data.resources.map((resource: Resource, index: number) => (
             <div
