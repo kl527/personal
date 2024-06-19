@@ -26,15 +26,17 @@ export const Intro = (): JSX.Element => {
             <div className="md:w-[646px] w-[237px] lg:w-[800px] md:hidden h-[2px] mb-3 mt-3 bg-black" />
             <div>
                 <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Problem</h1>
-                <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal]">
+                <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-8">
                     While working at a welfare center for the disabled, a friend with autism seemed to be more <em 
                         ref={sensitiveRef} 
                         className={`highlight ${sensitiveInViewport ? 'shown' : ''}`}>
                         sensitive to certain inputs
-                    </em>, particularly in terms of tactile and visual stimuli.
+                    </em>, particularly in terms of <em 
+                        ref={sensitiveRef} 
+                        className={`highlight ${sensitiveInViewport ? 'shown' : ''}`}>tactile and visual stimuli.</em>
                 </p>
                 <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Solution</h1>
-                <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal]">
+                <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-8">
                     We created a hoodie and sweater featuring <em 
                         ref={stitchingRef} 
                         className={`highlight ${stitchingInViewport ? 'shown' : ''}`}>
