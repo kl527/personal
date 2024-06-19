@@ -6,6 +6,7 @@ import Carousel from "./components/Carousel"
 import { Intro } from "./components/Intro"
 import Preloader from "./components/Preloader"
 import { useState } from "react";
+import LiteratureReview from "./components/LiteratureReview";
 
 export default function Page() {
     const [loading, setLoading] = useState(true);
@@ -26,6 +27,7 @@ export default function Page() {
                         <MTheader />
                         <Carousel />
                         <Intro />
+                        <LiteratureReview />
                     </div>
                 </main>
             }

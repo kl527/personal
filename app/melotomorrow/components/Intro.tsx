@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef } from 'react';
 import useInViewPort from '../../hooks/useInViewPort';
-import Image from 'next/image';
 
 export const Intro = (): JSX.Element => {
     const sensitiveRef = useRef<HTMLSpanElement>(null);
@@ -39,10 +38,10 @@ export const Intro = (): JSX.Element => {
                     </p>
                     <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Solution</h1>
                     <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                        We created a hoodie and sweater featuring <em
+                        We crafted a hoodie and sweater featuring <em
                             ref={stitchingRef}
                             className={`highlight ${stitchingInViewport ? 'shown' : ''}`}>
-                            specialized reduced-contact stitching, relocated labels to pockets, optimized shapes, and low-luminance fabrics
+                            reduced-contact stitching, strategically positioned labels in pockets, optimized shapes, and low-luminance fabrics.
                         </em>
                     </p>
                 </div>
@@ -82,7 +81,7 @@ export const Intro = (): JSX.Element => {
                     </div>
                 </div>
             </div>
-            <div className="md:w-[646px] w-[237px] lg:w-[800px] h-[2px] mb-3 bg-black" />
+            <div className="md:w-[646px] w-[237px] lg:w-[800px] h-[2px] mb-5 bg-black" />
         </div>
     );
 };

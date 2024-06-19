@@ -20,7 +20,7 @@ em {
 .highlight.shown {
     position: relative;
     background-origin: 0;
-    background-size: 200% 100%;
+    background-size: 200% 90%;
     background-repeat: repeat-x;
     background-position: -100% 100%;
     transition: background-position 0.8s ease-out;
