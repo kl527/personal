@@ -16,7 +16,7 @@ const Preloader: React.FC = () => {
         autoplay: true,
         path: '/loading.json',
       });
-      animationInstance.current?.setSpeed(1.3);
+      animationInstance.current?.setSpeed(1.4);
       return () => {
         animationInstance.current?.destroy();
         animationInstance.current = null;
