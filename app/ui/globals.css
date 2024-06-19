@@ -3,3 +3,34 @@
 @tailwind components;
 @tailwind utilities;
 
+.highlight {
+    position: relative;
+    background-origin: 0;
+    background-size: 200% 100%;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    transition: background-position 1.2s ease-out;
+    background-image: linear-gradient(to right, transparent 50%, #ADE0EB 50%);
+    padding: 4px 0px;
+}
+em {
+    font-style: normal;
+    line-height: 32px;
+}
+
+p{
+    line-height: 32px;
+}
+
+.highlight.shown {
+    position: relative;
+    background-origin: 0;
+    background-size: 200% 100%;
+    background-repeat: repeat-x;
+    background-position: -100% 100%;
+    transition: background-position 0.8s ease-out;
+}
+
+.highlight-walker {
+    background-image: linear-gradient(to right, transparent 50%, #ADE0EB 50%);
+}

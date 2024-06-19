@@ -1,6 +1,7 @@
 import { MTheader } from "./components/MTheader"
 import { MTleft } from "./components/MTleft"
 import Carousel from "./components/Carousel"
+import { Intro } from "./components/Intro"
 
 export default function Page() {
     return (
@@ -11,6 +12,7 @@ export default function Page() {
             <div>
             <MTheader />
             <Carousel />
+            <Intro />
             </div>
         </main>
     )
