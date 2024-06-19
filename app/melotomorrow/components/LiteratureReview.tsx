@@ -34,7 +34,7 @@ export default function LiteratureReview() {
                 <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0]">
                     <em ref={ref5} className={`highlight ${isInViewport5 ? 'shown' : ''}`}>
                         Abnormal sensitivity to visual cues are present in the majority of children with ASD.
-                    </em> <a className="underline underline-offset-2" href="https://link.springer.com/article/10.1023/A:1025850431170">(O'Neill and Jones 1997)</a>
+                    </em> <a className="underline underline-offset-2" href="https://link.springer.com/article/10.1023/A:1025850431170">(O&#x27;Neill and Jones 1997)</a>
                 </li>
             </ul>
         </div>
