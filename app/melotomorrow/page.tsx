@@ -18,7 +18,7 @@ export default function Page() {
         <div>
             {loading && <div className="flex 100vw place-content-center h-screen">
                 <Preloader /> </div>}
-            {!loading && <main className="flex flex-row place-content-center mt-9 md:mt-[40px]">
+            {!loading && <main className={`flex flex-row place-content-center mt-9 md:mt-[40px] ${!loading ? 'fadeIn' : ''}`}>
                     <div className="mr-8 md:mr-[80px] lg:mr-[150px] flex ">
                         <MTleft />
                     </div>
