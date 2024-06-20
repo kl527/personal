@@ -7,6 +7,9 @@ import { Intro } from "./components/Intro"
 import Preloader from "./components/Preloader"
 import { useState } from "react";
 import LiteratureReview from "./components/LiteratureReview";
+import Competitor from "./components/Competitor";
+import Interviews from "./components/Interviews";
+import Personas from "./components/Personas";
 
 export default function Page() {
     const [loading, setLoading] = useState(true);
@@ -28,6 +31,9 @@ export default function Page() {
                         <Carousel />
                         <Intro />
                         <LiteratureReview />
+                        <Competitor />
+                        <Interviews />
+                        <Personas />
                     </div>
                 </main>
             }

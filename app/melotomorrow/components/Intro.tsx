@@ -11,7 +11,7 @@ export const Intro = (): JSX.Element => {
 
     return (
         <div>
-            <div className="md:flex flex-row-reverse mb-10 w-[237px] md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-10">
+            <div className="md:flex flex-row-reverse mb-5 w-[237px] md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-10">
                 <div>
                     <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Timeline</h1>
                     <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal]">Dec. 2021 - Present</p>
