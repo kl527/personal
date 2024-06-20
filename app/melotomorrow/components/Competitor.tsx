@@ -14,7 +14,7 @@ export default function Competitor() {
     return (
         <div className="w-[237px] md:w-[646px] lg:w-[800px]">
             <h1 className="mb-4 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Competitor Analysis</h1>
-            <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Korea has historically ranked poorly in terms of mental health. As a result, there are <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>not many Korean companies that make clothing for people with autism.</em> We looked at three major companies: Target's Cat and Jack, Kohl&#x27;s, and Better Basic.</p>
+            <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Korea has historically ranked poorly in terms of mental health. As a result, there are <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>not many Korean companies that make clothing for people with autism.</em> We looked at three major companies: Target&#x27;s Cat and Jack, Kohl&#x27;s, and Better Basic.</p>
             <h1 className="text-melo-blue md:mb-4 font-normal text-lg md:text-[21px] tracking-[0] leading-[normal]">Main Findings:</h1>
             <ul>
                 <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
@@ -24,7 +24,7 @@ export default function Competitor() {
                     Offered clothing for ASD focus on tactile hypersensitivity
                 </li>
                 <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                    Clothing companies for ASD <em ref={ref3} className={`highlight ${isInViewport3 ? 'shown' : ''}`}>make their websites for caregivers' ease of use</em>, not for the children themselves.
+                    Clothing companies for ASD <em ref={ref3} className={`highlight ${isInViewport3 ? 'shown' : ''}`}>make their websites for caregivers&#x27; ease of use</em>, not for the children themselves.
                 </li>
             </ul>
         </div>
