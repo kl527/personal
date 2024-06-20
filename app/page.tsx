@@ -1,4 +1,3 @@
-import useInViewPort from "./hooks/useInViewPort";
 import React, { useRef } from 'react';
 import { Left } from "./ui/Left";
 import { Header } from "./ui/Header";

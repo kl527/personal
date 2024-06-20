@@ -10,6 +10,7 @@ export default function RootLayout({
     <html>
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/tah0pes.css" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={"font-bold"}>{children} <LeftBar /></body>
     </html>
