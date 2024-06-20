@@ -35,7 +35,7 @@ const Preloader: React.FC = () => {
   }, []);
 
   return (
-    <div ref={animationContainer} className='flex w-[300px] md:[450px] lg:[550px] p-8 justify-items-center place-content-center'></div>
+    <div ref={animationContainer} className='flex w-[200px] md:[450px] pb-8 lg:[550px] justify-items-center place-content-center'></div>
   );
 }
 

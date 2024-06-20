@@ -2,7 +2,7 @@
     "resources": [
         {
             "title": "homepage",
-            "imageUrl": "/carousel1.png"
+            "imageUrl": "/carousel1.jpg"
         },
         {
             "title": "model picture of melotomorrow",
@@ -14,11 +14,11 @@
         },
         {
             "title": "solo model",
-            "imageUrl": "/carousel4.jpg"
+            "imageUrl": "/carousel4.png"
         },
         {
             "title": "order confirmation",
-            "imageUrl": "/carousel5.png"
+            "imageUrl": "/carousel5.jpg"
         },
         {
             "title": "rapper model",
@@ -34,7 +34,7 @@
         },
         {
             "title": "product pics",
-            "imageUrl": "/carousel9.jpg"
+            "imageUrl": "/carousel9.png"
         }
     ]
 }
