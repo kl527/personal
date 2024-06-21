@@ -13,9 +13,6 @@ export const MTleft = (): JSX.Element => {
         <div className="font-normal mt-[1260px] md:mt-[950px] lg:mt-[830px] text-lg md:text-[21px] tracking-[0] leading-[normal]">
           Research
         </div>
-        <a href='#keyPoints' className='underline'>
-          Take me to the Key Points
-        </a>
       </div>
       
     );
