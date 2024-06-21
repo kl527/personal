@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
+    <html className="!scroll-smooth">
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/tah0pes.css" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
