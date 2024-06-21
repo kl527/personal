@@ -2,6 +2,7 @@ import LiteratureReview from "./LiteratureReview";
 import Competitor from "./Competitor";
 import Interviews from "./Interviews";
 import Personas from "./Personas";
+import KeyPoints from "./KeyPoints";
 
 export default function Research() {
     return (
@@ -10,6 +11,7 @@ export default function Research() {
             <Competitor />
             <Interviews />
             <Personas />
+            <KeyPoints />
         </div>
     )
 };
