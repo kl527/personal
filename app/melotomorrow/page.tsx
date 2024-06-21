@@ -7,6 +7,7 @@ import { Intro } from "./components/Intro"
 import Preloader from "./components/Preloader"
 import { useState } from "react";
 import Research from "./components/Research";
+import Design from "./components/Design";
 
 export default function Page() {
     const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ export default function Page() {
                         <Carousel />
                         <Intro />
                         <Research />
+                        <Design />
                     </div>
                 </main>
             }
