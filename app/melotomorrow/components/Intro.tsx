@@ -38,7 +38,7 @@ export const Intro = (): JSX.Element => {
                     </p>
                     <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Solution</h1>
                     <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                        We crafted a hoodie and sweater featuring <em
+                        We crafted clothes featuring <em
                             ref={stitchingRef}
                             className={`highlight ${stitchingInViewport ? 'shown' : ''}`}>
                             reduced-contact stitching, strategically positioned labels in pockets, optimized shapes, and low-luminance fabrics.
