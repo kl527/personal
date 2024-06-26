@@ -26,8 +26,8 @@ export default function KeyPoints() {
                 <h1 className='font-bold text-[16px] md:text-[18px] tracking-[0] leading-[normal]'>Things I learned:</h1>
                 <ul className="mb-8">
                     <li className="italic ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                        <em className="text-melo-blue">Choose low luminescent fabric colors and avoid yellow</em> <br />
-                        People with ASD don&#x27;t like high luminescent fabric colors (literature review) <br />
+                        <em className="text-melo-blue">Choose low luminance fabric colors and avoid yellow</em> <br />
+                        People with ASD don&#x27;t like high luminance fabric colors (literature review) <br />
                         Boys with ASD don&#x27;t like the color yellow (literature review) <br />
                         Interview participants tended to like colors blue and white (Interviews)
                     </li>
