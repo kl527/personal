@@ -6,6 +6,7 @@ import ClothingHi from './ClothingHi';
 import UserFlow from './UserFlow';
 import Brainstorm from './Brainstorm';
 import WebsiteLowFis from './WebsiteLowFis';
+import MidFis from './MidFis';
 
 export default function Design() {
     const ref1 = useRef<HTMLSpanElement>(null);
@@ -30,6 +31,7 @@ export default function Design() {
             <h1 className="mb-1 mt-5 text-melo-blue text-lg md:text-[21px] tracking-[0] leading-[normal]">Website Designs</h1>
             <UserFlow />
             <WebsiteLowFis />
+            <MidFis />
         </div>
     )
 }
