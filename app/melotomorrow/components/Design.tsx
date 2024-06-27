@@ -7,6 +7,7 @@ import UserFlow from './UserFlow';
 import Brainstorm from './Brainstorm';
 import WebsiteLowFis from './WebsiteLowFis';
 import MidFis from './MidFis';
+import HiFis from './HiFis';
 
 export default function Design() {
     const ref1 = useRef<HTMLSpanElement>(null);
@@ -32,6 +33,7 @@ export default function Design() {
             <UserFlow />
             <WebsiteLowFis />
             <MidFis />
+            <HiFis />
         </div>
     )
 }
