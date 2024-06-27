@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import Image from "next/image";
 import useInViewPort from '../../hooks/useInViewPort';
 
-export default function LowFis() {
+export default function ClothingLowFis() {
     const ref1 = useRef<HTMLSpanElement>(null);
 
     const isInViewport1 = useInViewPort(ref1);
