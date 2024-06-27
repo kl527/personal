@@ -12,10 +12,12 @@ export default function WebsiteLowFis() {
     return (
         <div className="w-[237px] md:w-[646px] lg:w-[800px]">
             <h1 className="mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Low Fidelity Sketches</h1>
-            <p className="font-normal mb-1 text-black md:text-[20px] text-base tracking-[0] leading-7"><em ref={ref1} className={`highlight  ${isInViewport1 ? 'shown' : ''}`}></em></p>
-            <div>
-                <Image src="/lowfi_website.jpg" className="mb-3 w-[237px] md:w-[646px] lg:w-[800px]" alt="Clothing Low Fidelity" width={800} height={400} />
-            </div>
+            <p className="font-normal mb-3 text-black md:text-[20px] text-base tracking-[0] leading-7"><em ref={ref1} className={`highlight  ${isInViewport1 ? 'shown' : ''}`}>After discussing the user flow with the team,</em> we quickly sketched out some product feature ideas.</p>
+            <picture className="w-[237px] md:w-[646px] lg:w-[800px]">
+                    <source media="(max-width: 767px)" srcSet="/lowfi_website.jpg" />
+                    <source media="(min-width: 768px)" srcSet="/lowfi_desktop.png" />
+                    <Image src="/lowfi_desktop.png" alt="affinity map" width={800} height={400}/>
+                </picture>
         </div>
     )
 }
