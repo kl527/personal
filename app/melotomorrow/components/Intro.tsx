@@ -64,11 +64,13 @@ export const Intro = (): JSX.Element => {
                         <h1 className='text-melo-blue md:mb-4 font-normal text-lg md:text-[21px] tracking-[0] leading-[normal]'>
                             Design
                         </h1>
-                        <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                            clothing design process <br />
-                            website design process <br />
-                            final solution 
-                        </p>
+                        <div className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
+                            <p>informed brainstorming</p>
+                            <p>user flow</p> 
+                            <p>sketches</p> 
+                            <p>wireframes</p>
+                            <p>user testing</p>
+                        </div>
                     </div>
                     <div className=''>
                         <h1 className='text-melo-blue md:mb-4 font-normal text-lg md:text-[21px] tracking-[0] leading-[normal]'>

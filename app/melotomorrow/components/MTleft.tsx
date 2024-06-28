@@ -10,7 +10,7 @@ export const MTleft = (): JSX.Element => {
         <div className="font-normal hidden md:inline-block text-lg md:text-[21px] tracking-[0] leading-[normal]">
           Intro
         </div>
-        <div className="font-normal hidden md:inline-block mt-[1240px] md:mt-[930px] lg:mt-[815px] text-lg md:text-[21px] tracking-[0] leading-[normal]">
+        <div className="font-normal hidden md:inline-block mt-[1240px] md:mt-[940px] lg:mt-[835px] text-lg md:text-[21px] tracking-[0] leading-[normal]">
           Research
         </div>
         <div className="font-normal hidden md:inline-block mt-[5455px] md:mt-[3610px] lg:mt-[3870px] text-lg md:text-[21px] tracking-[0] leading-[normal]">
