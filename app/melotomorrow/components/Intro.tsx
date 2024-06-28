@@ -11,7 +11,7 @@ export const Intro = (): JSX.Element => {
 
     return (
         <div>
-            <div className="md:flex flex-row-reverse mb-5 w-[237px] md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-10">
+            <div className="md:flex flex-row-reverse mb-5 w-full md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-10">
                 <div>
                     <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Timeline</h1>
                     <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal]">Dec. 2021 - Present</p>
@@ -24,7 +24,7 @@ export const Intro = (): JSX.Element => {
                         Figma, Next.js, Illustrator, Photoshop, After Effects
                     </p>
                 </div>
-                <div className="md:w-[646px] w-[237px] lg:w-[800px] md:hidden h-[2px] mb-3 mt-3 bg-black" />
+                <div className="md:w-[646px] w-full lg:w-[800px] md:hidden h-[2px] mb-3 mt-3 bg-black" />
                 <div>
                     <h1 className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Problem</h1>
                     <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
@@ -48,7 +48,7 @@ export const Intro = (): JSX.Element => {
             </div>
             <div>
                 <h1 className='mb-4 text-black text-lg md:text-[21px] tracking-[0] leading-[normal] '>Approach</h1>
-                <div className='md:flex w-[237px] md:w-[646px] lg:w-[800px] md:gap-[100px] lg:gap-[130px]'>
+                <div className='md:flex w-full md:w-[646px] lg:w-[800px] md:gap-[100px] lg:gap-[130px]'>
                     <div className=''>
                         <h1 className='text-melo-blue md:mb-4 font-normal text-lg md:text-[21px] tracking-[0] leading-[normal]'>
                             Research
@@ -81,7 +81,7 @@ export const Intro = (): JSX.Element => {
                     </div>
                 </div>
             </div>
-            <div className="md:w-[646px] w-[237px] lg:w-[800px] h-[2px] mb-5 bg-black" />
+            <div className="md:w-[646px] w-full lg:w-[800px] h-[2px] mb-5 bg-black" />
         </div>
     );
 };

@@ -13,7 +13,7 @@ export default function KeyPoints() {
     const isInViewport3 = useInViewPort(ref3);
     const isInViewport4 = useInViewPort(ref4);
     return (
-        <div className="w-[237px] md:w-[646px] lg:w-[800px]">
+        <div className="w-full md:w-[646px] lg:w-[800px]">
             <h1 id="keyPoints" className="mb-4 text-black text-lg mt-8 md:text-[21px] tracking-[0] leading-[normal]">Key Points</h1>
             <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Based on the literature review, competitor analyses, and user interviews, we gained a better understanding of what we should be making. <br /> <br /> We decided to focus our efforts on <em ref={ref4} className={`highlightKey ${isInViewport4 ? 'shown' : ''}`}>three key points:</em></p>
             <div className=''>
@@ -67,7 +67,7 @@ export default function KeyPoints() {
                     </li>
                 </ul>
             </div>
-            <div className="md:w-[646px] w-[237px] lg:w-[800px] h-[2px] mb-5 bg-black" />
+            <div className="md:w-[646px] w-full lg:w-[800px] h-[2px] mb-5 bg-black" />
         </div>
 
     )

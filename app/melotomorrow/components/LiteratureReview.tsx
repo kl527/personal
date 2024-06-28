@@ -12,7 +12,7 @@ export default function LiteratureReview() {
     const isInViewport5 = useInViewPort(ref5);
 
     return (
-        <div className="w-[237px] md:w-[646px] lg:w-[800px]">
+        <div className="w-full md:w-[646px] lg:w-[800px]">
             <h1 className="mb-4 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Literature Review</h1>
             <h1 className="text-melo-blue md:mb-4 font-normal text-lg md:text-[21px] tracking-[0] leading-[normal]">Main Findings:</h1>
             <ul>

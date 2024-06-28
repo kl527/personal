@@ -12,7 +12,7 @@ export default function ClothingHi() {
     const isInViewport2 = useInViewPort(ref2);
 
     return (
-    <div className="w-[237px] md:w-[646px] lg:w-[800px]">
+    <div className="w-full md:w-[646px] lg:w-[800px]">
         <h1 className="mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Final Clothing Product</h1>
         <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-7">
         To be fully transparent, <em ref={ref2} className={`highlight  ${isInViewport2 ? 'shown' : ''}`}>I did not have the funds to create multiple clothing pieces for user testing. I had to proceed with my first iteration. </em></p>

@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export const Project1 = (): JSX.Element => {
     return (
-      <div className="w-[237px] md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-5">
-        <div className="w-[237px] md:w-[100%]" >
+      <div className="w-full md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-5">
+        <div className="w-full md:w-[100%]" >
           <img src="/p1.jpg" alt="" />
         </div>
         <div className="md:w-[500px]">

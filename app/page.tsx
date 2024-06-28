@@ -7,7 +7,7 @@ import { Project3 } from "./ui/Project3";
 
 export default function Home() {
   return (
-    <main className="flex flex-row place-content-center mt-9 md:mt-[40px]">
+    <main className="md:flex w-[70%] pl-[12px] ml-auto mr-auto flex-row place-content-center mt-9 md:mt-[40px]">
       <div className="mr-8 md:mr-[80px] lg:mr-[150px] flex ">
         <Left />
       </div>
