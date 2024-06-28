@@ -65,9 +65,9 @@ export const Intro = (): JSX.Element => {
                             Design
                         </h1>
                         <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                            low fi <br />
-                            mid/hi fis <br />
-                            interactive prototype 
+                            clothing design process <br />
+                            website design process <br />
+                            final solution 
                         </p>
                     </div>
                     <div className=''>
