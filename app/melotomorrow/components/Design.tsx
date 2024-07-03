@@ -8,6 +8,7 @@ import Brainstorm from './Brainstorm';
 import WebsiteLowFis from './WebsiteLowFis';
 import MidFis from './MidFis';
 import HiFis from './HiFis';
+import DesignSolution from './DesignSolution';
 
 export default function Design() {
     const ref1 = useRef<HTMLSpanElement>(null);
@@ -34,6 +35,7 @@ export default function Design() {
             <WebsiteLowFis />
             <MidFis />
             <HiFis />
+            <DesignSolution />
         </div>
     )
 }
