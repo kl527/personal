@@ -23,7 +23,7 @@ export default function Design() {
         <div className="w-full md:w-[646px] lg:w-[800px]">
             <div className="mb-5">
                 <h1 className="text-black text-[32px] md:text-[56px] tracking-[0] leading-9 md:leading-[56px]">DESIGN</h1>
-                <a className="text-[16px] md:text-[20px] hover:text-melo-blue underline" href="#keyPoints">skip to final solution ↓</a>
+                <a className="text-[16px] md:text-[20px] hover:text-melo-blue underline" href="#designSolution">skip to final solution ↓</a>
             </div>
             <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">The design process for both the <em ref={ref1} className={`highlight  ${isInViewport1 ? 'shown' : ''}`}>clothing designs and the website design</em> are shown below.</p>
             <h1 className="mb-1 text-melo-blue text-lg md:text-[21px] tracking-[0] leading-[normal]">Clothing Designs</h1>

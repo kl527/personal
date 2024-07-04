@@ -77,8 +77,8 @@ export const Intro = (): JSX.Element => {
                             Evaluate
                         </h1>
                         <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                            usability testing <br />
-                            questionnaire 
+                            reflections <br />
+                            next steps 
                         </p>
                     </div>
                 </div>

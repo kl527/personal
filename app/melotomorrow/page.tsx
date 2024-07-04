@@ -8,6 +8,7 @@ import Preloader from "./components/Preloader"
 import { useState } from "react";
 import Research from "./components/Research";
 import Design from "./components/Design";
+import Evaluate from "./components/Evaluate";
 
 export default function Page() {
     const [loading, setLoading] = useState(true);
@@ -30,6 +31,7 @@ export default function Page() {
                         <Intro />
                         <Research />
                         <Design />
+                        <Evaluate />
                     </div>
                 </main>
             }
