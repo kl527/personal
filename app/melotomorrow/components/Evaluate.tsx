@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from 'react';
 import Reflections from './Reflections';
+import Next from './Next';
 
 export default function Evaluate() {
 
@@ -11,6 +12,7 @@ export default function Evaluate() {
                 <h1 className="text-black text-[32px] md:text-[56px] tracking-[0] leading-9 md:leading-[56px]">Evaluate</h1>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">This section discuss reflections on the current progress and the next steps</p>
                 <Reflections />
+                <Next />
             </div>
         </div>
     )

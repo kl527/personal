@@ -10,7 +10,7 @@
     background-repeat: repeat-x;
     background-position: 0 100%;
     transition: background-position 1.2s ease-out;
-    background-image: linear-gradient(to right, transparent 50%, #ADE0EB 50%);
+    background-image: linear-gradient(to right, transparent 50%, #2bbcdc 50%);
     padding: 4px 0px;
 }
 .highlightKey {
@@ -20,7 +20,7 @@
     background-repeat: repeat-x;
     background-position: 0 100%;
     transition: background-position 1.2s ease-out;
-    background-image: linear-gradient(to right, transparent 50%, salmon 50%);
+    background-image: linear-gradient(to right, transparent 50%, #ADE0EB 50%);
     padding: 4px 0px;
 }
 em {

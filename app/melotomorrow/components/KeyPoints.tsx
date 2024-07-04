@@ -15,13 +15,13 @@ export default function KeyPoints() {
     return (
         <div className="w-full md:w-[646px] lg:w-[800px]">
             <h1 id="keyPoints" className="mb-4 text-black text-lg mt-8 md:text-[21px] tracking-[0] leading-[normal]">Key Points</h1>
-            <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Based on the literature review, competitor analyses, and user interviews, we gained a better understanding of what we should be making. <br /> <br /> We decided to focus our efforts on <em ref={ref4} className={`highlightKey ${isInViewport4 ? 'shown' : ''}`}>three key points:</em></p>
+            <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Based on the literature review, competitor analyses, and user interviews, we gained a better understanding of what we should be making. <br /> <br /> We decided to focus our efforts on <em ref={ref4} className={`highlight ${isInViewport4 ? 'shown' : ''}`}>three key points:</em></p>
             <div className=''>
                 <h1 className='mb-3 text-melo-blue font-bold text-lg md:text-[21px] tracking-[0] leading-[normal]'>
                     Limited Availability of Visually Sensory-Friendly Clothing
                 </h1>
                 <p className="mb-3 font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
-                    Individuals with ASD often experience visual hypersensitivity, making them <em ref={ref1} className={`highlightKey ${isInViewport1 ? 'shown' : ''}`}>extremely sensitive to certain colors and patterns.</em> This results in discomfort and challenges in wearing conventional clothing, leading to a reliance on a limited selection of visually comfortable garments.
+                    Individuals with ASD often experience visual hypersensitivity, making them <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>extremely sensitive to certain colors and patterns.</em> This results in discomfort and challenges in wearing conventional clothing, leading to a reliance on a limited selection of visually comfortable garments.
                 </p>
                 <h1 className='font-bold text-[16px] md:text-[18px] tracking-[0] leading-[normal]'>Things I learned:</h1>
                 <ul className="mb-8">
@@ -38,7 +38,7 @@ export default function KeyPoints() {
                     Inadequate Accommodations for Tactile Hypersensitivity
                 </h1>
                 <p className="mb-3 font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
-                    Individuals with hypersensitivity often experience <em ref={ref2} className={`highlightKey ${isInViewport2 ? 'shown' : ''}`}>discomfort from certain textures and materials</em>, making it difficult to wear conventional clothing comfortably. This issue can result in significant distress and a limited wardrobe.                </p>
+                    Individuals with hypersensitivity often experience <em ref={ref2} className={`highlight ${isInViewport2 ? 'shown' : ''}`}>discomfort from certain textures and materials</em>, making it difficult to wear conventional clothing comfortably. This issue can result in significant distress and a limited wardrobe.                </p>
                 <h1 className='font-bold text-lg md:text-[18px] tracking-[0] leading-[normal]'>Things I learned:</h1>
                 <ul className="mb-7">
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
@@ -58,7 +58,7 @@ export default function KeyPoints() {
                     Insufficient Age-Appropriate Clothing Options
                 </h1>
                 <p className="mb-3 font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
-                    Many existing clothing lines for individuals with ASD focus on younger children and <em ref={ref3} className={`highlightKey ${isInViewport3 ? 'shown' : ''}`}>lack options for teenagers and adults.</em></p>
+                    Many existing clothing lines for individuals with ASD focus on younger children and <em ref={ref3} className={`highlight ${isInViewport3 ? 'shown' : ''}`}>lack options for teenagers and adults.</em></p>
                 <h1 className='font-bold text-lg md:text-[18px] tracking-[0] leading-[normal]'>Things I learned:</h1>
                 <ul className="mb-7">
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
