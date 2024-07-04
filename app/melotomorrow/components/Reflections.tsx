@@ -30,7 +30,7 @@ export default function Reflections() {
                         Logo is too big - could be too much visual stimulation
                     </li>
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
-                        <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>Was not able to user test the first iteration - we don&#39t know if our customers will like the product</em>
+                        <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>Was not able to user test the first iteration - we don&#x27;t know if our customers will like the product</em>
                     </li>
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
                         <em ref={ref2} className={`highlight ${isInViewport2 ? 'shown' : ''}`}>Production costs were too expensive - our next collection will need to reduce costs by prioritizing functions</em>
