@@ -7,6 +7,8 @@ import { Project2 } from "./ui/Project2";
 import { Project3 } from "./ui/Project3";
 import Footer from './ui/Footer';
 import { LeftBar } from './ui/LeftBar';
+import Books from './ui/Books';
+import About from './ui/About';
 
 export default function Home() {
   const [isSidebarHidden, setIsSidebarHidden] = useState(true);
@@ -22,11 +24,13 @@ export default function Home() {
       </div>
       <div>
         <Header />
-        <div className='mb-3 md:mb-7'>
+        <div className='mb-7 md:mb-12'>
           <Project1 />
           <Project2 />
           <Project3 />
         </div>
+        <Books />
+        <About />
         <div className="md:w-[646px] w-full lg:w-[800px] lg:h-[5px] md:h-[4px] h-[3px] bg-black" />
         <Footer />
       </div>
