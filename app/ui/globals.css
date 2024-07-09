@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.sidebar {
+    @apply bg-[#f2f2f2] w-[100%] h-screen fixed top-0 left-0 transition-transform ease-in duration-500;
+  }
+  
+  .sidebar--isHidden {
+    transform: translateX(calc(-100% + 12px));
+  }
+
 .highlight {
     position: relative;
     background-origin: 0;

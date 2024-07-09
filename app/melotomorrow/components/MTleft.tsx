@@ -16,6 +16,9 @@ export const MTleft = (): JSX.Element => {
         <div className="font-normal hidden md:inline-block mt-[5455px] md:mt-[3610px] lg:mt-[3870px] text-lg md:text-[21px] tracking-[0] leading-[normal]">
           Design
         </div>
+        <div className="font-normal hidden md:inline-block md:mt-[4930px] lg:mt-[5520px] text-lg md:text-[21px] tracking-[0] leading-[normal]">
+          Evaluate
+        </div>
       </div>
       
     );

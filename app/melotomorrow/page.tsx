@@ -9,6 +9,7 @@ import { useState } from "react";
 import Research from "./components/Research";
 import Design from "./components/Design";
 import Evaluate from "./components/Evaluate";
+import MeloLeftBar from "./components/MeloLeftBar";
 
 export default function Page() {
     const [loading, setLoading] = useState(true);
@@ -19,6 +20,7 @@ export default function Page() {
 
     return (
         <div>
+            <MeloLeftBar />
             {loading && <div className="flex 100vw place-content-center md:h-screen md:mt-0 mt-[150px] items-center">
                 <Preloader /> </div>}
             {!loading && <main className={`w-[70%] ml-auto mr-auto pl-[12px] md:flex flex-row place-content-center mt-8 md:mt-[40px] ${!loading ? 'fadeIn' : ''}`}>
