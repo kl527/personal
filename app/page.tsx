@@ -9,6 +9,7 @@ import Footer from './ui/Footer';
 import { LeftBar } from './ui/LeftBar';
 import Books from './ui/Books';
 import About from './ui/About';
+import { Website } from './ui/Website';
 
 export default function Home() {
   const [isSidebarHidden, setIsSidebarHidden] = useState(true);
@@ -28,6 +29,7 @@ export default function Home() {
           <Project1 />
           <Project2 />
           <Project3 />
+          <Website />
         </div>
         <Books />
         <About />

@@ -10,10 +10,10 @@ export const Left: React.FC<LeftProps> = ({toggleSidebar}): JSX.Element => {
             menu
           </p>
         </button>
-        <div className="md:mb-[800px] lg:mb-[1050px] font-normal text-lg hidden md:inline-block md:text-[21px] tracking-[0] leading-[normal]">
+        <div className="md:mb-[1050px] lg:mb-[1380px] font-normal text-lg hidden md:inline-block md:text-[21px] tracking-[0] leading-[normal]">
           Projects
         </div>
-        <div className="md:mb-[150px] lg:mb-[150px] xl:mb-[175px] font-normal text-lg hidden md:inline-block md:text-[21px] tracking-[0] leading-[normal]">
+        <div className="md:mb-[150px] lg:mb-[150px] xl:mb-[180px] font-normal text-lg hidden md:inline-block md:text-[21px] tracking-[0] leading-[normal]">
           Book Rec.
         </div>
         <div className="font-normal text-lg hidden md:inline-block md:text-[21px] tracking-[0] leading-[normal]">
