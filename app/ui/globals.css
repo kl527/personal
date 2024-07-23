@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .sidebar {
-    @apply bg-[#f2f2f2] w-[100%] h-screen fixed top-0 left-0 transition-transform ease-in duration-500 md:duration-700;
+    @apply bg-[#f2f2f2] w-[350px] h-screen fixed top-0 left-0 transition-transform ease-in duration-300 md:duration-500;
   }
   
   .sidebar--isHidden {
