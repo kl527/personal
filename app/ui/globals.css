@@ -24,6 +24,13 @@
       }
     
 }
+@media screen and (min-width: 1024px) {
+    .homepage--isHidden {
+        transform: translateX(300px);
+      }
+    
+}
+
 
 
 .highlight {
