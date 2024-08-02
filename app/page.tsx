@@ -12,7 +12,7 @@ import About from "./ui/About";
 import { Website } from "./ui/Website";
 
 export default function Home() {
-  const [isSidebarHidden, setIsSidebarHidden] = useState(true);
+  const [isSidebarHidden, setIsSidebarHidden] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarHidden(!isSidebarHidden);
