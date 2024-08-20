@@ -148,11 +148,11 @@ export default function Gallery() {
         </div>
         <div className="contentBlock contentBlock--one">
           <Image
-            src="/about/paris.jpeg"
-            className="rounded-xl shadow-lg mr-3"
-            width={100}
+            src="/about/swimming.JPG"
+            className="rounded-xl shadow-lg mb-5 mr-3"
+            width={150}
             height={300}
-            alt="picture with friends at paris"
+            alt="swimming trip with friends"
           />
         </div>
         <div className="contentBlock contentBlock--one">
@@ -166,19 +166,13 @@ export default function Gallery() {
         </div>
         <div className="contentBlock contentBlock--one">
           <Image
-            src="/about/sleepy.JPG"
-            className="rounded-xl shadow-lg mr-3"
+            src="/about/cooking.JPG"
+            className="rounded-xl shadow-lg mb-5 mr-3"
             width={150}
             height={300}
-            alt="sleepy from work"
+            alt="cooking party with friends"
           />
         </div>
-        {/* <div className="contentBlock contentBlock--one">
-            <Image src="/about/swimming.JPG" className="rounded-xl shadow-lg mb-5 mr-3" width={150} height={300} alt='swimming trip with friends'/>
-        </div>
-        <div className="contentBlock contentBlock--one">
-            <Image src="/about/cooking.JPG" className="rounded-xl shadow-lg mb-5 mr-3" width={150} height={300} alt='cooking party with friends'/>
-        </div> */}
       </InfiniteLooper>
     </div>
   );
