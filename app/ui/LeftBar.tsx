@@ -16,7 +16,7 @@ export const LeftBar: React.FC<LeftBarProps> = ({
       className={`sidebar ${
         isSidebarHidden ? "" : "sidebar--isHidden"
       } md:border-r-[15px] border-r-[12px] border-melo-blue
-      no-scrollbar overflow-hidden overflow-y-scroll whitespace-nowrap`}
+      overflow-hidden overflow-y-scroll scrollbar-hide whitespace-nowrap`}
     >
       {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mr-auto ml-auto flex justify-end md:w-[90%]">
         <button

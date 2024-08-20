@@ -30,6 +30,22 @@
       }
     
 }
+@media screen and (min-width: 1250px) {
+    .homepage--isHidden {
+        transform: translateX(250px);
+      }
+    
+}
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 
 
 
@@ -50,7 +66,7 @@
   background-repeat: repeat-x;
   background-position: 0 100%;
   transition: background-position 1.2s ease-out;
-  background-image: linear-gradient(to right, transparent 50%, #ade0eb 50%);
+  background-image: linear-gradient(to right, transparent 50%, salmon 50%);
   padding: 4px 0px;
 }
 em {
@@ -100,4 +116,36 @@ em {
 }
 .selected {
   color: #007089;
+}
+
+@keyframes slideAnim {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.looper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.looper__innerList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.looper__innerList[data-animate="true"] .looper__listInstance {
+  animation: slideAnim linear infinite;   
+}
+
+.looper__listInstance {
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  animation: none;
 }
