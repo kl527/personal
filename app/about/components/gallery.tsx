@@ -77,8 +77,8 @@ const InfiniteLooper = function InfiniteLooper({
 export default function Gallery() {
   return (
     <div className="w-full">
-      <div className="mb-2 md:mb-5 border-b-2 border-melo-blue w-fit font-bold text-black text-[30px] tracking-[0] leading-[normal]">
-        GALLERY OF MY LIFE
+      <div className="mb-2 mt-2 md:mt-5 md:mb-5 border-b-2 border-melo-blue w-fit font-bold text-black text-[30px] tracking-[0] leading-[normal]">
+        MOMENTS
       </div>
       <InfiniteLooper speed={5} direction="right">
         <div className="contentBlock contentBlock--one">

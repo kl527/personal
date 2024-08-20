@@ -17,10 +17,10 @@ export default function About() {
         alt="header photo of me"
       />
       <p className=" mb-3 md:mb-5 font-bold text-black text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px]">
-        Hi, I'm Daniel!
+        Hi, I&lsquo;m Daniel!
       </p>
       <p className="mb-5 md:mb-8 font-normal text-black text-[32px] md:text-[48px] tracking-[0] leading-[40px] md:leading-[55px]">
-        I'm a junior at{" "}
+        I&lsquo;m a junior at{" "}
         <em
           ref={ref1}
           className={`highlightKey  ${isInViewport1 ? "shown" : ""}`}
