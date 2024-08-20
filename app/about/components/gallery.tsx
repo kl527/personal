@@ -159,7 +159,7 @@ export default function Gallery() {
           <Image
             src="/about/elmo.JPG"
             className="rounded-xl shadow-lg mr-3"
-            width={150}
+            width={100}
             height={300}
             alt="first dog elmo"
           />
@@ -168,7 +168,7 @@ export default function Gallery() {
           <Image
             src="/about/cooking.JPG"
             className="rounded-xl shadow-lg mb-5 mr-3"
-            width={150}
+            width={120}
             height={300}
             alt="cooking party with friends"
           />
