@@ -14,7 +14,7 @@ export default function About() {
                     </Link>
                     <button className="md:w-[95px] md:h-[40px] transition duration-500 group transition-colors duration-500 ease-in-out hover:bg-black flex w-[75px] h-9 bg-black items-center gap-2.5 pl-[9px] pr-[13px] py-[3px] left-0 border-4 border-solid border-black">
                         <a
-                            href='/resume/Kyung_Sub_Lee-CV.pdf'
+                            href='/resume/Kyung_Sub_Lee-Resume.pdf'
                             target='_blank'
                             rel='noopener noreferrer'
                             className="text-center w-fit mr-[-7.00px] md:text-[19px] font-bold text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out text-white group-hover:text-white"
