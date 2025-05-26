@@ -271,8 +271,8 @@ export default function SproutPage() {
 
               <div className="bg-black text-white p-8 my-12">
                 <p className="text-base md:text-[20px] font-normal leading-6 md:leading-8">
-                  "Constraints aren't limitations—they're the catalyst for breakthrough thinking. 
-                  When you can't do everything, you're forced to do the right things exceptionally well."
+                  &quot;Constraints aren&apos;t limitations—they&apos;re the catalyst for breakthrough thinking. 
+                  When you can&apos;t do everything, you&apos;re forced to do the right things exceptionally well.&quot;
                 </p>
               </div>
             </div>

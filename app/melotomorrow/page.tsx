@@ -231,7 +231,7 @@ export default function MeloTomorrowPage() {
                     Offered clothing for ASD focus on tactile hypersensitivity
                   </li>
                   <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                    Clothing companies for ASD <em ref={ref3} className={`highlight ${isInViewport3 ? 'shown' : ''}`}>make their websites for caregivers' ease of use</em>, not for the children themselves.
+                    Clothing companies for ASD <em ref={ref3} className={`highlight ${isInViewport3 ? 'shown' : ''}`}>make their websites for caregivers&apos; ease of use</em>, not for the children themselves.
                   </li>
                 </ul>
               </div>
