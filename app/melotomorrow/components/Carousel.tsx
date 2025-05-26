@@ -129,4 +129,4 @@ const Carousel: React.FC = () => {
     );
 };
 
-export default Carousel;
+export default Carousel; 

@@ -2,14 +2,14 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 
-import data from '../../lib/clothingData.json';
+import data from '../../lib/data.json';
 
 interface Resource {
     imageUrl: string;
     title: string;
 }
 
-const CarouselClothing: React.FC = () => {
+const Carousel: React.FC = () => {
     const maxScrollWidth = useRef<number>(0);
     const [currentIndex, setCurrentIndex] = useState<number>(0);
     const carousel = useRef<HTMLDivElement>(null);
@@ -129,4 +129,4 @@ const CarouselClothing: React.FC = () => {
     );
 };
 
-export default CarouselClothing; 
+export default Carousel;
