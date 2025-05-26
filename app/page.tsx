@@ -39,7 +39,7 @@ export default function Home() {
           <Project3 />
           <Website />
         </div>
-        <Books />
+        {/* <Books /> */}
         <About />
         <div className="md:w-[646px] w-full lg:w-[800px] lg:h-[5px] md:h-[4px] h-[3px] bg-black" />
         <Footer />

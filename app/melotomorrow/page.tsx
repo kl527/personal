@@ -202,7 +202,7 @@ export default function MeloTomorrowPage() {
                   <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                     People with ASD reported <em ref={ref2} className={`highlight ${isInViewport2 ? 'shown' : ''}`}>
                       highly negatively to fabric labels
-                    </em> - one participant of a study said "the labels are just there to make you feel bad." <a className="underline underline-offset-2" href="https://link.springer.com/article/10.1007/s10803-021-05140-3">(Kyriacou et al. 2021).</a>
+                    </em> - one participant of a study said &quot;the labels are just there to make you feel bad.&quot; <a className="underline underline-offset-2" href="https://link.springer.com/article/10.1007/s10803-021-05140-3">(Kyriacou et al. 2021).</a>
                   </li>
                   <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                     Boys with ASD are significantly less likely to prefer the color yellow than boys under typical development <a className="underline underline-offset-2" href="https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01976/full">(Grandgeorge and Masataka 2016).</a>
@@ -272,8 +272,8 @@ export default function MeloTomorrowPage() {
                   <ul className="mb-8">
                     <li className="italic ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                       <em className="text-melo-blue">Choose low luminance fabric colors and avoid yellow</em> <br />
-                      People with ASD don't like high luminance fabric colors (literature review) <br />
-                      Boys with ASD don't like the color yellow (literature review) <br />
+                      People with ASD don&apos;t like high luminance fabric colors (literature review) <br />
+                      Boys with ASD don&apos;t like the color yellow (literature review) <br />
                       Interview participants tended to like colors blue and white (Interviews)
                     </li>
                   </ul>
@@ -289,13 +289,13 @@ export default function MeloTomorrowPage() {
                   <ul className="mb-7">
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
                       <em className="text-melo-blue">Remove tags</em> <br />
-                      People with ASD don't like fabric labels (literature review)<br />
+                      People with ASD don&apos;t like fabric labels (literature review)<br />
                       Interview participants reported that they remove fabric labels when they purchase new clothes (Interviews)
                     </li>
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
                       <em className="text-melo-blue">Change stitching/get rid of stitching</em> <br />
-                      Interview participants reported that they don't wear clothes that have uneven/protruding stitching (interviews)<br />
-                      Current adaptive clothing in Korea don't accommodate for stitching (Competitor Analysis)
+                      Interview participants reported that they don&apos;t wear clothes that have uneven/protruding stitching (interviews)<br />
+                      Current adaptive clothing in Korea don&apos;t accommodate for stitching (Competitor Analysis)
                     </li>
                   </ul>
                 </div>

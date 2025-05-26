@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useRef } from 'react';
+import Image from 'next/image';
 import useInViewPort from '../hooks/useInViewPort';
 
 export const Website = (): JSX.Element => {
@@ -12,7 +13,7 @@ export const Website = (): JSX.Element => {
     return (
       <div className="w-full md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-5">
         <div className="w-full md:w-[100%]" >
-          <img src="/website.jpg" alt="" />
+          <Image src="/website.jpg" alt="Personal Website" width={800} height={400} />
         </div>
         <div className="md:w-[500px]">
           <div className="font-normal text-[#747474] md:text-[20px] mt-3 md:mt-0 text-base tracking-[0] leading-[normal]">

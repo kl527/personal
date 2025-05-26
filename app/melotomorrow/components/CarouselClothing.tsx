@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 
 import data from '../../lib/clothingData.json';
 
@@ -115,9 +116,11 @@ const CarouselClothing: React.FC = () => {
                                 className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                                 style={{ backgroundImage: `url(${resource.imageUrl || ''})`, backgroundColor: '#000' }}
                             >
-                                <img
+                                <Image
                                     src={resource.imageUrl || ''}
                                     alt={resource.title}
+                                    width={500}
+                                    height={500}
                                     className="w-full aspect-square hidden"
                                 />
                             </div>

@@ -149,3 +149,65 @@ em {
   justify-content: center;
   animation: none;
 }
+
+/* Text Animation for Header - Large Text Version */
+.text-animation-container {
+  height: 2.5rem;
+  overflow: hidden;
+  display: inline-flex;
+  vertical-align: baseline;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .text-animation-container {
+    height: 4.2rem; /* Adjusted for 56px text size */
+  }
+}
+
+.text-animation {
+  animation: text-switch 9s infinite;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-animation-item {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .text-animation-item {
+    height: 4.2rem; /* Adjusted for 56px text size */
+  }
+}
+
+.text-animation-item span {
+  display: inline-block;
+  line-height: 1;
+}
+
+@keyframes text-switch {
+  0% { transform: translateY(0); }
+  10% { transform: translateY(0); }
+  33% { transform: translateY(-2.5rem); }
+  43% { transform: translateY(-2.5rem); }
+  66% { transform: translateY(-5rem); }
+  76% { transform: translateY(-5rem); }
+  90% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
+@media (min-width: 768px) {
+  @keyframes text-switch {
+    0% { transform: translateY(0); }
+    10% { transform: translateY(0); }
+    33% { transform: translateY(-4.2rem); }
+    43% { transform: translateY(-4.2rem); }
+    66% { transform: translateY(-8.4rem); }
+    76% { transform: translateY(-8.4rem); }
+    90% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+}

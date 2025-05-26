@@ -62,8 +62,8 @@ export default function SproutPage() {
             
             <div className="space-y-8">
               <p className="text-base md:text-[20px] font-normal text-black leading-6 md:leading-8">
-                We've designed, built, and launched category-defining digital products for the world's top brands. 
-                When meeting people new to working with us, we're often asked to describe our methodology.
+                We&apos;ve designed, built, and launched category-defining digital products for the world&apos;s top brands. 
+                When meeting people new to working with us, we&apos;re often asked to describe our methodology.
               </p>
               
               <div className="bg-gray-100 aspect-[16/9] flex items-center justify-center my-12">
@@ -75,8 +75,8 @@ export default function SproutPage() {
                   Introduction
                 </h3>
                 <p className="text-base md:text-[20px] font-normal text-black leading-6 md:leading-8 mb-6">
-                  We've designed, built, and launched category-defining digital products for the world's top brands. 
-                  When meeting people new to working with us, we're often asked to describe our methodology.
+                  We&apos;ve designed, built, and launched category-defining digital products for the world&apos;s top brands. 
+                  When meeting people new to working with us, we&apos;re often asked to describe our methodology.
                 </p>
               </div>
             </div>
@@ -94,11 +94,11 @@ export default function SproutPage() {
                   Understanding the Challenge
                 </h3>
                 <p className="text-base md:text-[20px] font-normal text-black leading-6 md:leading-8 mb-6">
-                  Every great product starts with a deep understanding of the problem it's solving. 
+                  Every great product starts with a deep understanding of the problem it&apos;s solving. 
                   <b> Products serve a purpose</b>—they have a job to do.
                 </p>
                 <p className="text-base md:text-[20px] font-normal text-black leading-6 md:leading-8">
-                  Understanding that products serve a purpose is more than just a strategic insight—it's a gateway 
+                  Understanding that products serve a purpose is more than just a strategic insight—it&apos;s a gateway 
                   to innovation. Assessing how your product fulfills a job for your customer is a foundational 
                   aspect of product innovation.
                 </p>
