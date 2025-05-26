@@ -213,7 +213,7 @@ export default function MeloTomorrowPage() {
                   <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                     <em ref={ref5} className={`highlight ${isInViewport5 ? 'shown' : ''}`}>
                       Abnormal sensitivity to visual cues are present in the majority of children with ASD.
-                    </em> <a className="underline underline-offset-2" href="https://link.springer.com/article/10.1023/A:1025850431170">(O'Neill and Jones 1997)</a>
+                    </em> <a className="underline underline-offset-2" href="https://link.springer.com/article/10.1023/A:1025850431170">(O&apos;Neill and Jones 1997)</a>
                   </li>
                 </ul>
               </div>
@@ -435,7 +435,7 @@ export default function MeloTomorrowPage() {
                       Logo is too big - could be too much visual stimulation
                     </li>
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
-                      <em ref={ref14} className={`highlight ${isInViewport14 ? 'shown' : ''}`}>Was not able to user test the first iteration - we don't know if our customers will like the product</em>
+                      <em ref={ref14} className={`highlight ${isInViewport14 ? 'shown' : ''}`}>Was not able to user test the first iteration - we don&apos;t know if our customers will like the product</em>
                     </li>
                     <li className="italic ml-4 list-disc font-normal text-black md:text-[20px] text-base tracking-[0] leading-7">
                       <em ref={ref15} className={`highlight ${isInViewport15 ? 'shown' : ''}`}>Production costs were too expensive - our next collection will need to reduce costs by prioritizing functions</em>
