@@ -5,21 +5,22 @@ function useInViewPort<T extends HTMLElement>(ref: React.RefObject<T>, options?:
   const [inViewport, setInViewport] = useState(false);
 
   useEffect(() => {
+      const element = ref.current;
       const observer = new IntersectionObserver((entries) => {
           entries.forEach(entry => {
-              if (entry.target === ref.current) {
+              if (entry.target === element) {
                   setInViewport(entry.isIntersecting);
               }
           });
       }, options);
 
-      if (ref.current) {
-          observer.observe(ref.current);
+      if (element) {
+          observer.observe(element);
       }
 
       return () => {
-          if (ref.current) {
-              observer.unobserve(ref.current);
+          if (element) {
+              observer.unobserve(element);
           }
       };
   }, [ref, options]); 

@@ -290,11 +290,11 @@ export default function SproutPage() {
                   Think Long Term
                 </h3>
                 <p className="text-base md:text-[20px] font-normal text-black leading-6 md:leading-8 mb-6">
-                  The mark of an exceptional product team isn't just in their ability to bring products to market, 
+                  The mark of an exceptional product team isn&apos;t just in their ability to bring products to market, 
                   <b> but in their dedication to what follows the launch</b>.
                 </p>
                 <p className="text-base md:text-[20px] font-normal text-black leading-6 md:leading-8">
-                  Launching a product is a milestone, but it's far from the journey's end. It represents the 
+                  Launching a product is a milestone, but it&apos;s far from the journey&apos;s end. It represents the 
                   beginning of a path toward continuous enhancement and growth. The difference between a good and 
                   a great product practice lies in the commitment to what happens next.
                 </p>

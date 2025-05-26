@@ -221,7 +221,7 @@ export default function MeloTomorrowPage() {
               {/* Competitor Analysis Subsection */}
               <div id="competitor-analysis" className="mb-16">
                 <h3 className="mb-4 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">Competitor Analysis</h3>
-                <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Korea has historically ranked poorly in terms of mental health. As a result, there are <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>not many Korean companies that make clothing for people with autism.</em> We looked at three major companies: Target's Cat and Jack, Kohl's, and Better Basic.</p>
+                <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">Korea has historically ranked poorly in terms of mental health. As a result, there are <em ref={ref1} className={`highlight ${isInViewport1 ? 'shown' : ''}`}>not many Korean companies that make clothing for people with autism.</em> We looked at three major companies: Target&apos;s Cat and Jack, Kohl&apos;s, and Better Basic.</p>
                 <h3 className="text-melo-blue md:mb-4 font-normal text-lg md:text-[21px] tracking-[0] leading-[normal]">Main Findings:</h3>
                 <ul>
                   <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
@@ -386,7 +386,7 @@ export default function MeloTomorrowPage() {
                 <div className="mb-8">
                   <h4 className="mb-1 text-black text-base md:text-lg tracking-[0] leading-[normal]">Mid Fidelity Wireframes</h4>
                   <p className="font-normal mb-1 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                    While the team worked on finding a way to contact payment gateway services (due to Korea's strict regulations on payments), I focused on <em ref={ref13} className={`highlight ${isInViewport13 ? 'shown' : ''}`}>creating mid-fidelity wireframes with the discussed low fidelity concepts.</em></p>
+                    While the team worked on finding a way to contact payment gateway services (due to Korea&apos;s strict regulations on payments), I focused on <em ref={ref13} className={`highlight ${isInViewport13 ? 'shown' : ''}`}>creating mid-fidelity wireframes with the discussed low fidelity concepts.</em></p>
                   <div>
                     <Image src="/midfis.jpg" className="mb-3 w-full md:w-[646px] lg:w-[800px]" alt="Mid Fidelity Wireframes" width={800} height={400} />
                   </div>
