@@ -1,3 +1,5 @@
+import { Section } from '../types';
+
 export const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
   if (element) {
@@ -8,19 +10,37 @@ export const scrollToSection = (sectionId: string) => {
 };
 
 export const handleScroll = (
-  sections: { id: string }[],
-  setActiveSection: (sectionId: string) => void
+  sections: Section[],
+  setActiveSection: (section: string) => void,
+  setActiveSubsection: (subsection: string) => void
 ) => {
   const scrollPosition = window.scrollY + 100;
 
+  // Find the current section and subsection
   for (const section of sections) {
-    const element = document.getElementById(section.id);
-    if (element) {
-      const { offsetTop, offsetHeight } = element;
-      if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-        setActiveSection(section.id);
-        break;
+    const sectionElement = document.getElementById(section.id);
+    if (!sectionElement) continue;
+
+    const sectionTop = sectionElement.offsetTop;
+    const sectionBottom = sectionTop + sectionElement.offsetHeight;
+
+    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+      setActiveSection(section.id);
+
+      // Check subsections
+      for (const subsection of section.subsections) {
+        const subsectionElement = document.getElementById(subsection.id);
+        if (!subsectionElement) continue;
+
+        const subsectionTop = subsectionElement.offsetTop;
+        const subsectionBottom = subsectionTop + subsectionElement.offsetHeight;
+
+        if (scrollPosition >= subsectionTop && scrollPosition < subsectionBottom) {
+          setActiveSubsection(subsection.id);
+          break;
+        }
       }
+      break;
     }
   }
 }; 

@@ -3,12 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.sidebar {
-  @apply bg-[#f2f2f2] w-[300px] md:w-[350px] z-10 h-screen fixed top-0 left-0 transition-transform ease-in duration-300 md:duration-500;
+:root {
+  --transition-duration: 500ms;
+  --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.homepage{
- @apply transition-transform ease-in duration-700 md:duration-700;
+.sidebar {
+  @apply bg-[#f2f2f2] w-[300px] md:w-[350px] z-10 h-screen fixed top-0 left-0;
+  transition: transform var(--transition-duration) var(--transition-timing);
+}
+
+.homepage {
+  transition: transform var(--transition-duration) var(--transition-timing);
 }
 
 .sidebar--isHidden {
@@ -66,7 +72,7 @@
   background-repeat: repeat-x;
   background-position: 0 100%;
   transition: background-position 1.2s ease-out;
-  background-image: linear-gradient(to right, transparent 50%, salmon 50%);
+  background-image: linear-gradient(to right, transparent 50%, #2bbcdc 50%);
   padding: 4px 0px;
 }
 em {
@@ -96,7 +102,7 @@ em {
 }
 
 .highlightKey-walker {
-  background-image: linear-gradient(to right, transparent 50%, salmon 50%);
+  background-image: linear-gradient(to right, transparent 50%, #ade0eb 50%);
 }
 
 @keyframes fadeIn {

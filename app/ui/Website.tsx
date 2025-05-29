@@ -25,7 +25,7 @@ export const Website = (): JSX.Element => {
           <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal] ">
             <span className="font-normal ">Website designed with <em ref={ref1} className={`highlightKey  ${isInViewport1 ? 'shown' : ''}`}>Next.js and Typescript</em>. Designed with accessibility principles prioritized.</span>
           </p>
-          <a href="https://github.com/kl527/personal" className="md:w-[165px] bg-black md:h-[38px] transition duration-500 group transition-colors duration-500 ease-in-out mb-8 flex w-[141px] h-10 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-black">
+          <a href="https://github.com/kl527/personal" className="md:w-[165px] bg-[#007089] md:h-[38px] transition duration-500 group transition-colors duration-500 ease-in-out mb-8 flex w-[141px] h-10 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-[#007089]">
             <div className='flex content-center'>
               <p className='text-center content-center w-fit mr-[7px] md:text-[18px] font-bold text-white text-sm transition-colors duration-300 ease-in-out '>See the code</p>
               <div className='content-center'>

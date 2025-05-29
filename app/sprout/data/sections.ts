@@ -1,9 +1,33 @@
 import { Section } from '../types';
 
 export const sections: Section[] = [
-  { id: 'introduction', title: 'Introduction' },
-  { id: 'background', title: 'Background/Ideation' },
-  { id: 'design', title: 'Design Process' },
-  { id: 'technical', title: 'Technical' },
-  { id: 'impact', title: 'Impact/Next Steps' }
+  {
+    id: 'introduction',
+    title: 'Introduction',
+    subsections: []
+  },
+  {
+    id: 'research',
+    title: 'Research',
+    subsections: [
+      { id: 'cultural-experience', title: 'Cultural Experience' },
+      { id: 'literature-review', title: 'Related Works/Literature Review' },
+      { id: 'design-goals', title: 'Design Goals' }
+    ]
+  },
+  {
+    id: 'design',
+    title: 'Design',
+    subsections: [
+      { id: 'sketches', title: 'Sketches' },
+      { id: 'low-fi', title: 'Low Fi: Cardboard' },
+      { id: 'mid-fi', title: 'Mid Fi' },
+      { id: 'final-prototype', title: 'Final Prototype' }
+    ]
+  },
+  {
+    id: 'evaluate',
+    title: 'Evaluate',
+    subsections: []
+  }
 ]; 

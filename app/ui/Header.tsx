@@ -6,7 +6,7 @@ export const Header = (): JSX.Element => {
         Kyung Sub Lee (Daniel)
       </div>
       <p className="mb-7 md:mb-12 font-normal text-black text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px] flex flex-wrap items-center">
-      <span className="mr-1 mb-4">exploring affective solutions as a: </span>
+      <span className="mr-1 mb-4">exploring <b className="font-bold">affective</b> solutions as a: </span>
         <span className="text-animation-container">
           <span className="text-animation">
             <span className="text-animation-item">
@@ -21,7 +21,7 @@ export const Header = (): JSX.Element => {
           </span>
         </span>
       </p>
-      <div className="md:w-[646px] mb-7 md:mb-12 w-full lg:w-[800px] lg:h-[5px] md:h-[8px] h-[3px] bg-black" />
+      <div className="md:w-[646px] mb-7 md:mb-12 w-full lg:w-[800px] lg:h-[5px] md:h-[5px] h-[3px] bg-black" />
     </div>
   );
 };

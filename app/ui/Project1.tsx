@@ -17,8 +17,8 @@ export const Project1 = (): JSX.Element => {
           <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal] ">
             <span className="font-normal ">Tactile sensitive clothing project for people with hypersensitivity.</span>
           </p>
-          <Link href="/melotomorrow" className="md:w-[141px] md:h-[40px] transition duration-500 group transition-colors duration-500 ease-in-out hover:bg-black mb-8 flex w-[116px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-black">
-            <div className="text-center w-fit mr-[-7.00px] md:text-[18px] font-bold text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white">
+          <Link href="/melotomorrow" className="md:w-[141px] md:h-[40px] transition duration-500 group transition-colors duration-500 ease-in-out hover:bg-[#007089] mb-8 flex w-[116px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-[#007089]">
+            <div className="text-center w-fit mr-[-7.00px] md:text-[18px] font-bold text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white text-[#007089]">
               Case Study →
             </div>
           </Link>
