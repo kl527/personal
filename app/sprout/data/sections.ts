@@ -20,7 +20,7 @@ export const sections: Section[] = [
     title: 'Design',
     subsections: [
       { id: 'sketches', title: 'Sketches' },
-      { id: 'low-fi', title: 'Low Fi: Cardboard' },
+      { id: 'low-fi', title: 'Low Fi' },
       { id: 'mid-fi', title: 'Mid Fi' },
       { id: 'final-prototype', title: 'Final Prototype' }
     ]
