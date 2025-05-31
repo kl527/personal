@@ -519,7 +519,7 @@ export default function SproutPage() {
                 <h3 className="mb-4 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">
                   Low Fi
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
                   <Image
                     src="/sprout/lowfi1.jpg"
                     alt="Low Fi Prototype 1"
@@ -549,8 +549,51 @@ export default function SproutPage() {
                     className="w-full h-auto"
                   />
                 </div>
+                <h4 className="mb-4 mt-4 text-black text-lg md:text-[21px] font-normal tracking-[0] leading-[normal]">
+                  Physical Mechanism Testing
+                </h4>
+                <div className="ml-4 border-l-2 border-melo-blue pl-4 mt-4">
+                  <ul>
+                    <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
+                      Explored forms with cardboard prototypes, discovering
+                      servos are pretty big and we need to scale up the robot
+                      shell
+                    </li>
+                    <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
+                      Tested functions using plastic scraps, magnets, and
+                      cardboard to test servo-magnet interactions before final
+                      build
+                    </li>
+                    <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
+                      Laser-cut custom gear attachments to replace standard
+                      servo arms
+                    </li>
+                  </ul>
+                </div>
               </div>
-
+              <div className="w-full h-[400px] md:h-[500px] lg:h-[800px]">
+                <video
+                  src="/sprout/lowfi.mov"
+                  className="w-full h-full object-cover object-center scale-y-[-1]"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                />
+              </div>
+              <h4 className="mb-4 mt-4 text-black text-lg md:text-[21px] font-normal tracking-[0] leading-[normal]">
+                Emotion Recognition Testing
+              </h4>
+              <div className="ml-4 border-l-2 border-melo-blue pl-4 mt-4">
+                <ul>
+                  <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
+                    Used Hume API for emotion recognition and pyserial to send the detected emotion to the arduino
+                  </li>
+                  <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
+                    Focused on identifying most frequently expressed emotions for the robot to mimic.
+                  </li>
+                </ul>
+              </div>
               {/* Mid Fi Subsection */}
               <div id="mid-fi" className="mb-16">
                 <h3 className="mb-4 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">
