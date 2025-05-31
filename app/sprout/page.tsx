@@ -121,7 +121,7 @@ export default function SproutPage() {
                     Sprout transforms the cultural concept of mirror therapy
                     into a tangible therapeutic tool, using servo-driven
                     physical features and real-time emotion detection to mirror
-                    users' facial expressions for emotional rehabilitation.
+                    users&apos; facial expressions for emotional rehabilitation.
                   </p>
                 </div>
               </div>
@@ -186,9 +186,9 @@ export default function SproutPage() {
                   Mirror Therapy (거울치료) is a Korean cultural concept where
                   you recognize your own behaviors, flaws, or traits{" "}
                   <em>
-                    only after seeing them reflected in someone else's actions
+                    only after seeing them reflected in someone else&apos;s actions
                   </em>{" "}
-                  - a social "mirror" that reveals blind spots about yourself.
+                  - a social &quot;mirror&quot; that reveals blind spots about yourself.
                 </p>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
                   This psychological phenomenon{" "}
@@ -231,7 +231,7 @@ export default function SproutPage() {
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                       FaraPy pioneered AR-based facial paralysis feedback{" "}
                       <a className="underline underline-offset-2" href="#">
-                        (Barrios Dell'Olio & Sra 2021)
+                        (Barrios Dell&apos;Olio & Sra 2021)
                       </a>
                     </li>
                   </ul>
@@ -312,7 +312,7 @@ export default function SproutPage() {
                   <ul>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                       Modern streaming APIs detect 20+ emotional states in
-                      &lt;200ms but aren't utilized
+                      &lt;200ms but aren&apos;t utilized
                     </li>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                       Continuous emotion tracking for fluid responses remains
@@ -487,7 +487,7 @@ export default function SproutPage() {
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                       Mouth Expression: Servo motors drive magnets via fishing
                       line to create smiling, neutral, or frowning expressions
-                      by adjusting the mouth's outer edges.
+                      by adjusting the mouth&apos;s outer edges.
                     </li>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
                       Squinting Eyes: Bottom eyelids rise using vertical servos
