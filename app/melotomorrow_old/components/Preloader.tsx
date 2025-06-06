@@ -1,6 +1,5 @@
-"use client"
+"use client";
 
-import lottie from 'lottie-web';
 import { useEffect, useRef } from 'react';
 
 const Preloader: React.FC = () => {
@@ -8,20 +7,26 @@ const Preloader: React.FC = () => {
   const animationInstance = useRef<any>(null);
 
   useEffect(() => {
-    if (animationContainer.current && !animationInstance.current) {
-      animationInstance.current = lottie.loadAnimation({
-        container: animationContainer.current,
-        renderer: 'svg',
-        loop: false,
-        autoplay: true,
-        path: '/loading.json',
-      });
-      animationInstance.current?.setSpeed(1.4);
-      return () => {
-        animationInstance.current?.destroy();
-        animationInstance.current = null;
-      };
-    }
+    let mounted = true;
+    (async () => {
+      const lottie = await import('lottie-web');
+      if (mounted && animationContainer.current && !animationInstance.current) {
+        animationInstance.current = lottie.default.loadAnimation({
+          container: animationContainer.current,
+          renderer: 'svg',
+          loop: false,
+          autoplay: true,
+          path: '/loading.json',
+        });
+        animationInstance.current?.setSpeed(1.4);
+      }
+    })();
+
+    return () => {
+      mounted = false;
+      animationInstance.current?.destroy();
+      animationInstance.current = null;
+    };
   }, []);
 
   useEffect(() => {
