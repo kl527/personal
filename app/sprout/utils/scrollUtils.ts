@@ -27,7 +27,14 @@ export const handleScroll = (
     if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
       setActiveSection(section.id);
 
+      // Clear subsection if this section has no subsections
+      if (!section.subsections || section.subsections.length === 0) {
+        setActiveSubsection('');
+        break;
+      }
+
       // Check subsections
+      let foundSubsection = false;
       for (const subsection of section.subsections) {
         const subsectionElement = document.getElementById(subsection.id);
         if (!subsectionElement) continue;
@@ -37,9 +44,16 @@ export const handleScroll = (
 
         if (scrollPosition >= subsectionTop && scrollPosition < subsectionBottom) {
           setActiveSubsection(subsection.id);
+          foundSubsection = true;
           break;
         }
       }
+      
+      // Clear subsection if none are in view
+      if (!foundSubsection) {
+        setActiveSubsection('');
+      }
+      
       break;
     }
   }
