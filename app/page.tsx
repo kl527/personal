@@ -37,8 +37,8 @@ export default function Home() {
         <div className="mb-7 md:mb-12">
           <Project4 />
           <Project1 />
-          <Project2 />
           <Project3 />
+          <Project2 />
           <Website />
         </div>
         {/* <Books /> */}

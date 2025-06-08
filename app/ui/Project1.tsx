@@ -9,7 +9,7 @@ export const Project1 = (): JSX.Element => {
         </Link>
         <div className="md:w-[500px]">
           <div className="font-normal text-[#747474] md:text-[20px] mt-3 md:mt-0 text-base tracking-[0] leading-[normal]">
-            <b className="font-bold">Startup</b> | Design & Management
+            <b className="font-bold">2021 - 2024</b> | Startup
           </div>
           <div className="font-bold mb-1 text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">
             MELO TOMORROW

@@ -3,7 +3,6 @@ import About from "./components/about";
 import AboutLeft from "./components/aboutLeft";
 import AboutLeftBar from "./components/aboutLeftBar";
 import Experience from "./components/experience";
-import Gallery from "./components/gallery";
 
 export default function Page() {
     return (
@@ -16,7 +15,6 @@ export default function Page() {
             <div className="w-full md:w-[646px] lg:w-[800px]">
                 <About />
                 <Experience />
-                <Gallery />
             </div>
         </main>
     </div>

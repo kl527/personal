@@ -25,7 +25,7 @@ export default function ResponsiveGrid() {
   }
 
   return (
-    <div className="mb-16">
+    <div className="mb-5 md:mb-8">
       {/* Mobile Carousel */}
       <div className="md:hidden relative">
         <div className="relative aspect-square">

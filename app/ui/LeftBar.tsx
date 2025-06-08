@@ -42,8 +42,28 @@ export const LeftBar: React.FC<LeftBarProps> = ({
             <source media="(min-width: 767px)" srcSet="/navD_home.png" />
             <Image
               src="/nav_home.png"
-              className={`mt-1 w-4/5 h-auto md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out`}
+              className={`mt-1 w-4/5 h-[150px] md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out object-cover`}
               alt="Home Nav button"
+              width="358"
+              height="773"
+            />
+          </picture>
+        </Link>
+        <Link href="/sprout" onClick={toggleSidebar}>
+          <h2
+            className={`text-[#0D2C33] text-sm font-gr font-bold text-md ${
+              currentPath === "/sprout" ? "selected" : ""
+            }`}
+          >
+            SPROUT CASE STUDY
+          </h2>
+          <picture className="w-full">
+            <source media="(max-width: 767px)" srcSet="/nav_sprout.png" />
+            <source media="(min-width: 767px)" srcSet="/navD_sprout.png" />
+            <Image
+              src="/nav_sprout.png"
+              className={`mt-1 w-4/5 h-[150px] md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out object-cover`}
+              alt="sprout case study navigation"
               width="358"
               height="773"
             />
@@ -62,28 +82,28 @@ export const LeftBar: React.FC<LeftBarProps> = ({
             <source media="(min-width: 767px)" srcSet="/navD_mt.png" />
             <Image
               src="/nav_mt.png"
-              className={`mt-1 w-4/5 h-auto md:11/12 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out`}
+              className={`mt-1 w-4/5 h-[150px] md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out object-cover`}
               alt="melo tomorrow case study navigation"
               width="358"
               height="773"
             />
           </picture>
         </Link>
-        <Link href="/books" onClick={toggleSidebar}>
+        <Link href="/about" onClick={toggleSidebar}>
           <h2
             className={`text-[#0D2C33] text-sm font-gr font-bold text-md ${
-              currentPath === "/books" ? "selected" : ""
+              currentPath === "/about" ? "selected" : ""
             }`}
           >
-            READING LIST
+            ABOUT
           </h2>
           <picture className="w-full">
-            <source media="(max-width: 767px)" srcSet="/nav_book.png" />
-            <source media="(min-width: 767px)" srcSet="/navD_book.png" />
+            <source media="(max-width: 767px)" srcSet="/nav_about.png" />
+            <source media="(min-width: 767px)" srcSet="/navD_about.png" />
             <Image
-              src="/nav_book.png"
-              className={`mt-1 w-4/5 h-auto md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out`}
-              alt="readling list navigation"
+              src="/nav_about.png"
+              className={`mt-1 w-4/5 h-[150px] md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out object-cover`}
+              alt="about navigation"
               width="358"
               height="773"
             />
