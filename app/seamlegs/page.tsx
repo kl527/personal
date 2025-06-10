@@ -13,6 +13,42 @@ export default function SeamlegsPage() {
   const [activeSection, setActiveSection] = useState("introduction");
   const [activeSubsection, setActiveSubsection] = useState("");
 
+  // Refs for highlight animations
+  const ongoingRef = useRef<HTMLSpanElement>(null);
+  const accuracyRef = useRef<HTMLSpanElement>(null);
+  const expensiveRef = useRef<HTMLSpanElement>(null);
+  const capacitiveRef = useRef<HTMLSpanElement>(null);
+  const tianhongRef = useRef<HTMLSpanElement>(null);
+  const threadsRef = useRef<HTMLSpanElement>(null);
+  const microcontrollerRef = useRef<HTMLSpanElement>(null);
+  const recordingsRef = useRef<HTMLSpanElement>(null);
+  const signalsRef = useRef<HTMLSpanElement>(null);
+  const sittingRef = useRef<HTMLSpanElement>(null);
+  const jumpingRef = useRef<HTMLSpanElement>(null);
+  const readingsRef = useRef<HTMLSpanElement>(null);
+  const hardwareRef = useRef<HTMLSpanElement>(null);
+  const interquartileRef = useRef<HTMLSpanElement>(null);
+  const reengineerRef = useRef<HTMLSpanElement>(null);
+  const independenceRef = useRef<HTMLSpanElement>(null);
+
+  // InViewPort hooks
+  const ongoingInViewport = useInViewPort(ongoingRef);
+  const accuracyInViewport = useInViewPort(accuracyRef);
+  const expensiveInViewport = useInViewPort(expensiveRef);
+  const capacitiveInViewport = useInViewPort(capacitiveRef);
+  const tianhongInViewport = useInViewPort(tianhongRef);
+  const threadsInViewport = useInViewPort(threadsRef);
+  const microcontrollerInViewport = useInViewPort(microcontrollerRef);
+  const recordingsInViewport = useInViewPort(recordingsRef);
+  const signalsInViewport = useInViewPort(signalsRef);
+  const sittingInViewport = useInViewPort(sittingRef);
+  const jumpingInViewport = useInViewPort(jumpingRef);
+  const readingsInViewport = useInViewPort(readingsRef);
+  const hardwareInViewport = useInViewPort(hardwareRef);
+  const interquartileInViewport = useInViewPort(interquartileRef);
+  const reengineerInViewport = useInViewPort(reengineerRef);
+  const independenceInViewport = useInViewPort(independenceRef);
+
   useEffect(() => {
     const handleScrollEvent = () => {
       handleScroll(sections, setActiveSection, setActiveSubsection);
@@ -65,11 +101,6 @@ export default function SeamlegsPage() {
               <div className="w-full md:w-[646px] lg:w-[800px] lg:h-[7px] md:h-[5px] h-[4px] bg-black" />
             </div>
 
-            {/* Placeholder for main visual */}
-            {/* <div className="mt-5 w-full aspect-video bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">Main Visual Placeholder</p>
-            </div> */}
-
             {/* Project Overview */}
             <div className="w-full md:w-[646px] lg:w-[800px] mb-16">
               <div className="md:flex flex-row-reverse mb-5 w-full md:w-[646px] lg:w-[800px] md:flex md:gap-5 md:mb-10">
@@ -94,7 +125,9 @@ export default function SeamlegsPage() {
                     Important Note
                   </h1>
                   <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                    SeamLegs is an ongoing research. SeamLegs is adapted from{" "}
+                    <span ref={ongoingRef} className={`highlight ${ongoingInViewport ? 'shown' : ''}`}>
+                      SeamLegs is an ongoing research.
+                    </span> SeamLegs is adapted from{" "}
                     <a
                       href="https://www.researchgate.net/publication/389572345_SeamFit_Towards_Practical_Smart_Clothing_for_Automatic_Exercise_Logging#:~:text=In%20SeamFit%2C%20we%20demonstrate%20washable%2C%20fits%2C%20and%20wash%20cycles."
                       className="underline"
@@ -111,11 +144,13 @@ export default function SeamlegsPage() {
                   </h1>
                   <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
                     SeamLegs is smart pants woven with eight capacitive-thread
-                    sensors that identify 12 lower-body exercises. Multiple
-                    classifiers were tested with our best model reaching 89%
-                    accuracy on 150 annotated trials, proving that textile
-                    sensing can rival bulkier wearables while remaining
-                    comfortable.
+                    sensors that identify 12 lower-body exercises.{" "}
+                    <span ref={ongoingRef} className={`highlight ${ongoingInViewport ? 'shown' : ''}`}>
+                      Multiple classifiers were tested with our best model
+                      reaching 89% accuracy on 150 annotated trials
+                    </span>
+                    , proving that textile sensing can rival bulkier wearables
+                    while remaining comfortable.
                   </p>
                 </div>
               </div>
@@ -175,12 +210,17 @@ export default function SeamlegsPage() {
                   Motivation
                 </h3>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  Current motion tracking solutions are either too expensive
-                  (think specialized labs) or too intrusive (bulky IMU sensors
-                  strapped to your body). SeamLegs solves this by integrating
-                  capacitive sensing threads into normal leggings, giving you
-                  accurate full-body motion data without any of the usual
-                  drawbacks.
+                  Current motion tracking solutions are either{" "}
+                  <span ref={expensiveRef} className={`highlight ${expensiveInViewport ? 'shown' : ''}`}>
+                    too expensive (think specialized labs) or too intrusive
+                    (bulky IMU sensors strapped to your body).
+                  </span>{" "}
+                  SeamLegs solves this by integrating{" "}
+                  <span ref={capacitiveRef} className={`highlight ${capacitiveInViewport ? 'shown' : ''}`}>
+                    capacitive sensing threads into normal leggings
+                  </span>
+                  , giving you accurate full-body motion data without any of the
+                  usual drawbacks.
                 </p>
               </div>
 
@@ -190,8 +230,11 @@ export default function SeamlegsPage() {
                   Hardware
                 </h3>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  Hardware was provided by Tianhong Catherine Yu, the first name
-                  author of SeamFit.
+                  Hardware was provided by{" "}
+                  <span ref={tianhongRef} className={`highlight ${tianhongInViewport ? 'shown' : ''}`}>
+                    Tianhong Catherine Yu
+                  </span>
+                  , the first name author of SeamFit.
                 </p>
 
                 <div className="mb-5">
@@ -205,10 +248,14 @@ export default function SeamlegsPage() {
                 </div>
 
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  Eight insulated capacitive threads are stitched along outer
-                  seams and around key joints, connected to a Seeed XIAO
-                  nRF52840 microcontroller and dual TI FDC2214 converters
-                  sampling at 30 Hz.
+                  <span ref={threadsRef} className={`highlight ${threadsInViewport ? 'shown' : ''}`}>
+                    Eight insulated capacitive threads
+                  </span>{" "}
+                  are stitched along outer seams and around key joints, connected to a{" "}
+                  <span ref={microcontrollerRef} className={`highlight ${microcontrollerInViewport ? 'shown' : ''}`}>
+                    Seeed XIAO nRF52840 microcontroller and dual TI FDC2214
+                    converters sampling at 30 Hz.
+                  </span>
                 </p>
               </div>
             </section>
@@ -225,9 +272,11 @@ export default function SeamlegsPage() {
                   Data Collection
                 </h3>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  Three participants performed five rounds of each exercise,
-                  yielding 150 one-minute recordings aligned with video for
-                  ground-truth labeling through Vidat.
+                  Three participants performed five rounds of each exercise,{" "}
+                  <span ref={recordingsRef} className={`highlight ${recordingsInViewport ? 'shown' : ''}`}>
+                    yielding 150 one-minute recordings aligned with video for
+                    ground-truth labeling through Vidat.
+                  </span>
                 </p>
 
                 {/* Participant Images */}
@@ -273,8 +322,9 @@ export default function SeamlegsPage() {
                           className="w-full h-auto"
                           loading="lazy"
                           priority={false}
-                          quality={75}
+                          quality={50}
                           unoptimized={true}
+                          sizes="(max-width: 768px) 100vw, 200px"
                         />
                         <Image
                           src="/seampants/walking/2.gif"
@@ -284,8 +334,9 @@ export default function SeamlegsPage() {
                           className="w-full h-auto"
                           loading="lazy"
                           priority={false}
-                          quality={75}
+                          quality={50}
                           unoptimized={true}
+                          sizes="(max-width: 768px) 100vw, 200px"
                         />
                         <Image
                           src="/seampants/walking/3.gif"
@@ -295,8 +346,9 @@ export default function SeamlegsPage() {
                           className="w-full h-auto"
                           loading="lazy"
                           priority={false}
-                          quality={75}
+                          quality={50}
                           unoptimized={true}
+                          sizes="(max-width: 768px) 100vw, 200px"
                         />
                       </div>
                     </div>
@@ -318,8 +370,9 @@ export default function SeamlegsPage() {
                           className="w-full h-auto"
                           loading="lazy"
                           priority={false}
-                          quality={75}
+                          quality={50}
                           unoptimized={true}
+                          sizes="(max-width: 768px) 100vw, 200px"
                         />
                         <Image
                           src="/seampants/lunges/2.gif"
@@ -329,8 +382,9 @@ export default function SeamlegsPage() {
                           className="w-full h-auto"
                           loading="lazy"
                           priority={false}
-                          quality={75}
+                          quality={50}
                           unoptimized={true}
+                          sizes="(max-width: 768px) 100vw, 200px"
                         />
                         <Image
                           src="/seampants/lunges/3.gif"
@@ -340,8 +394,9 @@ export default function SeamlegsPage() {
                           className="w-full h-auto"
                           loading="lazy"
                           priority={false}
-                          quality={75}
+                          quality={50}
                           unoptimized={true}
+                          sizes="(max-width: 768px) 100vw, 200px"
                         />
                       </div>
                     </div>
@@ -355,8 +410,11 @@ export default function SeamlegsPage() {
                   EDA
                 </h3>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  We looked at the raw capacitive thread signals through the
-                  naked eye, recognizing patterns.
+                  We looked at the{" "}
+                  <span ref={signalsRef} className={`highlight ${signalsInViewport ? 'shown' : ''}`}>
+                    raw capacitive thread signals through the naked eye
+                  </span>
+                  , recognizing patterns.
                 </p>
 
                 <div className="mb-5">
@@ -399,11 +457,16 @@ export default function SeamlegsPage() {
                     <div className="ml-4 border-l-2 border-melo-blue pl-4">
                       <ul>
                         <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                          Squats were very different from sitting down
+                          Squats were very different from{" "}
+                          <span ref={sittingRef} className={`highlight ${sittingInViewport ? 'shown' : ''}`}>
+                            sitting down
+                          </span>
                         </li>
                         <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                          Jumping jacks, walking, and jogging produce similar
-                          patterns
+                          <span ref={jumpingRef} className={`highlight ${jumpingInViewport ? 'shown' : ''}`}>
+                            Jumping jacks, walking, and jogging
+                          </span>{" "}
+                          produce similar patterns
                         </li>
                       </ul>
                     </div>
@@ -417,8 +480,15 @@ export default function SeamlegsPage() {
                   Data Pre-processing
                 </h3>
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  Recognized that we were getting incorrect readings because of
-                  a hardware issue.
+                  Recognized that we were getting{" "}
+                  <span ref={readingsRef} className={`highlight ${readingsInViewport ? 'shown' : ''}`}>
+                    incorrect readings
+                  </span>{" "}
+                  because of a{" "}
+                  <span ref={hardwareRef} className={`highlight ${hardwareInViewport ? 'shown' : ''}`}>
+                    hardware issue
+                  </span>
+                  .
                 </p>
 
                 <div className="mb-5">
@@ -437,12 +507,15 @@ export default function SeamlegsPage() {
                 <div className="ml-4 border-l-2 border-melo-blue pl-4">
                   <ul>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                      We tried a moving average filter, but it only "smudged"
+                      We tried a moving average filter, but it only &ldquo;smudged&rdquo;
                       the outliers, not get rid of them.
                     </li>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                      We ended up using an interquartile range to remove
-                      outliers
+                      We ended up using an{" "}
+                      <span ref={interquartileRef} className={`highlight ${interquartileInViewport ? 'shown' : ''}`}>
+                        interquartile range
+                      </span>{" "}
+                      to remove outliers
                     </li>
                   </ul>
                 </div>
@@ -543,9 +616,11 @@ export default function SeamlegsPage() {
                 </div>
 
                 <p className="font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-6 md:leading-8">
-                  The Random Forest model performed the best at 88.6% overall
-                  accuracy, with a macro-F1 of 0.87 using 10-fold cross
-                  validation.
+                  <span ref={accuracyRef} className={`highlight ${accuracyInViewport ? 'shown' : ''}`}>
+                    The Random Forest model performed the best at 88.6% overall
+                    accuracy, with a macro-F1 of 0.87 using 10-fold cross
+                    validation.
+                  </span>
                 </p>
               </div>
             </section>
@@ -567,12 +642,16 @@ export default function SeamlegsPage() {
                 <div className="ml-4 border-l-2 border-melo-blue pl-4">
                   <ul>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                      Re-engineer SeamLegs to start the sensor from the back
-                      panel, reducing connection issues
+                      <span ref={reengineerRef} className={`highlight ${reengineerInViewport ? 'shown' : ''}`}>
+                        Re-engineer SeamLegs
+                      </span>{" "}
+                      to start the sensor from the back panel, reducing connection issues
                     </li>
                     <li className="ml-4 list-disc font-normal mb-5 text-black md:text-[20px] text-base tracking-[0] leading-7">
-                      Record new datasets with the updated design, ensuring
-                      user-independence and session-independence
+                      Record new datasets with the updated design, ensuring{" "}
+                      <span ref={independenceRef} className={`highlight ${independenceInViewport ? 'shown' : ''}`}>
+                        user-independence and session-independence
+                      </span>
                     </li>
                   </ul>
                 </div>
