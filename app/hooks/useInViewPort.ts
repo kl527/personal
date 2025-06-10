@@ -4,7 +4,8 @@ const useInViewPort = (ref: RefObject<HTMLElement>): boolean => {
   const [isInViewport, setIsInViewport] = useState(false);
 
   useEffect(() => {
-    if (!ref.current) return;
+    const element = ref.current;
+    if (!element) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -17,12 +18,10 @@ const useInViewPort = (ref: RefObject<HTMLElement>): boolean => {
       }
     );
 
-    observer.observe(ref.current);
+    observer.observe(element);
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
+      observer.unobserve(element);
     };
   }, [ref]);
 
