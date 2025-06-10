@@ -49,6 +49,26 @@ export const LeftBar: React.FC<LeftBarProps> = ({
             />
           </picture>
         </Link>
+        <Link href="/seamlegs" onClick={toggleSidebar}>
+          <h2
+            className={`text-[#0D2C33] text-sm font-gr font-bold text-md ${
+              currentPath === "/seamlegs" ? "selected" : ""
+            }`}
+          >
+            SEAMLEGS CASE STUDY
+          </h2>
+          <picture className="w-full">
+            <source media="(max-width: 767px)" srcSet="/nav_seam.png" />
+            <source media="(min-width: 767px)" srcSet="/navD_seam.png" />
+            <Image
+              src="/nav_seam.png"
+              className={`mt-1 w-4/5 h-[150px] md:w-4/5 md:h-auto rounded-md selected-shadow shadow-lg transition duration-300 ease-in-out object-cover`}
+              alt="seamlegs case study navigation"
+              width="358"
+              height="773"
+            />
+          </picture>
+        </Link>
         <Link href="/sprout" onClick={toggleSidebar}>
           <h2
             className={`text-[#0D2C33] text-sm font-gr font-bold text-md ${
