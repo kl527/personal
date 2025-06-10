@@ -12,6 +12,7 @@ import Books from "./ui/Books";
 import About from "./ui/About";
 import { Website } from "./ui/Website";
 import { Project5 } from "./ui/Project5";
+import { Project6 } from "./ui/Project6";
 export default function Home() {
   const [isSidebarHidden, setIsSidebarHidden] = useState(false);
 
@@ -35,6 +36,7 @@ export default function Home() {
       } `}>
         <Header />
         <div className="mb-7 md:mb-12">
+          <Project6 />
           <Project5 />
           <Project4 />
           <Project1 />
