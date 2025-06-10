@@ -637,7 +637,7 @@ export default function SeamlegsPage() {
                   Research in Progress
                 </h3>
                 <h4 className="mb-4 mt-4 text-black text-lg md:text-[21px] font-normal tracking-[0] leading-[normal]">
-                  There's a few more things we're working on:
+                  There&apos;s a few more things we&apos;re working on:
                 </h4>
                 <div className="ml-4 border-l-2 border-melo-blue pl-4">
                   <ul>
