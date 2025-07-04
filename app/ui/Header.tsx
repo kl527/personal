@@ -2,11 +2,11 @@
 export const Header = (): JSX.Element => {
   return (
     <div className="w-full md:w-[646px] lg:w-[800px] place-content-center">
-      <div className="mb-2 md:mb-5 text-melo-blue font-bold text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">
+      <div className="mb-2 md:mb-3 text-melo-blue font-bold text-black text-lg md:text-[21px] tracking-[0] leading-[normal]">
         Kyung Sub Lee (Daniel)
       </div>
-      <p className="mb-7 md:mb-12 font-normal text-black text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px] flex flex-wrap items-center">
-      <span className="mr-1 mb-4">exploring <b className="font-bold">affective</b> solutions as a: </span>
+      <p className="mb-7 md:mb-8 font-normal text-black text-[32px] md:text-[40px] tracking-[0] leading-[35px] md:leading-[55px] flex flex-wrap items-center">
+      <span className="mr-1 mb-4">exploring <b className="font-bold">Human-AI Interaction</b> as a: </span>
         <span className="text-animation-container">
           <span className="text-animation">
             <span className="text-animation-item">

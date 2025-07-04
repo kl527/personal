@@ -17,11 +17,12 @@ export const Project2 = (): JSX.Element => {
           <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[normal]">
             <span className="font-normal">Digital journal that customizes journal entries through collected text and media.</span>
           </p>
-          <Link href="/" className="md:w-[141px] md:h-[40px] transition duration-500 group transition-colors duration-500 ease-in-out hover:bg-[#747474] mb-8 flex w-[116px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-[#747474]">
-            <div className="text-center w-fit mr-[-7.00px] md:text-[18px] font-bold text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white text-[#747474]">
-              Coming Soon 
-            </div>
-          </Link>
+          <Link
+          href="/"
+          className="font-normal md:text-[20px] text-sm tracking-[0] leading-[normal] mb-8 text-[#747474] underline hover:text-[#747474] transition-all duration-300"
+        >
+          Coming Soon
+        </Link>
         </div>
       </div>
     );

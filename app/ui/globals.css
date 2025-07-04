@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: #fafafa;
+  background-color: #f2f2f2;
 }
 
 .sidebar {
@@ -171,7 +171,7 @@ em {
 
 @media (min-width: 768px) {
   .text-animation-container {
-    height: 4.2rem; /* Adjusted for 56px text size */
+    height: 3.4rem; /* Adjusted for 40px text size */
   }
 }
 
@@ -189,7 +189,7 @@ em {
 
 @media (min-width: 768px) {
   .text-animation-item {
-    height: 4.2rem; /* Adjusted for 56px text size */
+    height: 3.4rem; /* Adjusted for 40px text size */
   }
 }
 
@@ -213,10 +213,10 @@ em {
   @keyframes text-switch {
     0% { transform: translateY(0); }
     10% { transform: translateY(0); }
-    33% { transform: translateY(-4.2rem); }
-    43% { transform: translateY(-4.2rem); }
-    66% { transform: translateY(-8.4rem); }
-    76% { transform: translateY(-8.4rem); }
+    33% { transform: translateY(-3.4rem); }
+    43% { transform: translateY(-3.4rem); }
+    66% { transform: translateY(-6.8rem); }
+    76% { transform: translateY(-6.8rem); }
     90% { transform: translateY(0); }
     100% { transform: translateY(0); }
   }

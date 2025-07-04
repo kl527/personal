@@ -20,13 +20,14 @@ export const Project3 = (): JSX.Element => {
             Truscoop
           </div>
           <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[1.6]">
-            <span className="font-normal"><em ref={ref1} className={`highlightKey  ${isInViewport1 ? 'shown' : ''}`}>Best Overall at the Cornell Appdev Hackathon.</em> News app that predicts political orientation of articles.  </span>
+          Best Overall at the Cornell Appdev Hackathon. <span className="font-normal"><em ref={ref1} className={`highlightKey  ${isInViewport1 ? 'shown' : ''}`}>News app</em> that predicts political orientation of articles.  </span>
           </p>
-          <Link href="/" className="md:w-[141px] md:h-[40px] transition duration-500 group transition-colors duration-500 ease-in-out hover:bg-[#747474] mb-8 flex w-[116px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-[#747474]">
-            <div className="text-center w-fit mr-[-7.00px] md:text-[18px] font-bold text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white text-[#747474]">
-              Coming Soon 
-            </div>
-          </Link>
+          <Link
+          href="/"
+          className="font-normal md:text-[20px] text-sm tracking-[0] leading-[normal] mb-8 text-[#747474] underline transition-all duration-300"
+        >
+          Coming Soon
+        </Link>
         </div>
       </div>
     );

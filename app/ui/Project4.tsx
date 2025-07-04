@@ -21,17 +21,15 @@ export const Project4 = (): JSX.Element => {
         </div>
         <p className="font-normal mb-2 text-black md:text-[20px] text-base tracking-[0] leading-[1.6] ">
           <span className="font-normal ">
-            AI-powered <em ref={ref1} className={`highlightKey  ${isInViewport1 ? 'shown' : ''}`}>Mirror Therapy Robot that mimics facial expressions </em>
+            AI-powered <em ref={ref1} className={`highlightKey  ${isInViewport1 ? 'shown' : ''}`}>Mirror Therapy Robot</em> that mimics facial expressions 
             through servo-driven magnets
           </span>
         </p>
         <Link
           href="/sprout"
-          className="md:w-[141px] md:h-[40px] transition duration-500 group transition-colors duration-500 ease-in-out hover:bg-[#007089] mb-8 flex w-[116px] h-9 items-center gap-2.5 pl-[9px] pr-[15px] py-[3px] left-0 border-4 border-solid border-[#007089]"
+          className="font-normal md:text-[20px] text-sm tracking-[0] leading-[normal] mb-8 text-[rgb(0,112,137)] underline hover:text-black transition-all duration-300"
         >
-          <div className="text-center w-fit mr-[-7.00px] md:text-[18px] font-bold text-sm tracking-[0] leading-[normal] transition-colors duration-300 ease-in-out group-hover:text-white text-[#007089]">
-            Case Study →
-          </div>
+          Case Study
         </Link>
       </div>
     </div>
